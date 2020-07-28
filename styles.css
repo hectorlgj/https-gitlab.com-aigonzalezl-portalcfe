@@ -1,0 +1,3352 @@
+ /* You can add global styles to this file, and also import other style files */
+ 
+ pre {
+     overflow-x: auto;
+ }
+ 
+ .p-grid.container {
+     width: 100%;
+     margin: 0;
+     padding: 2% 5%;
+     max-width: 100%!important;
+ }
+ 
+ .variablecontainer {
+     font-family: 'Ubuntu';
+     font-weight: normal;
+     font-style: normal;
+     text-align: center;
+     color: var(--white);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-right: 10px;
+     width: 180px;
+     height: 50px;
+     box-shadow: 0px 5px 10px -2px var(--platinum);
+ }
+ 
+ .container-center {
+     font-family: 'Ubuntu';
+     font-weight: normal;
+     font-style: normal;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     width: 100%;
+     height: auto;
+     /* box-shadow: 0px 5px 10px -2px var(--platinum); */
+ }
+ /* SHADOW */
+ 
+ .shadow-none {
+     box-shadow: none !important;
+ }
+ 
+ .shadow-box {
+     box-shadow: 4px 0 4px rgba(168, 130, 130, 0.5);
+ }
+ 
+ .shadow-card {
+     box-shadow: 4px 4px 4px rgba(0, 0, 0, .5);
+ }
+ 
+ .shadow-border {
+     box-shadow: 0 2px 2px rgba(0, 0, 0, .16);
+ }
+ /* DIVIDER */
+ 
+ .divider {
+     border-bottom: 1px solid var(--lapis-lazuli);
+     width: 100%;
+ }
+ 
+ .divider-white {
+     border-bottom: 2px solid var(--white);
+     width: 100%;
+     margin: 15px 0;
+ }
+ 
+ .leftdiv {
+     border-top: 1px solid var(--manatee);
+     border-bottom: 1px solid var(--manatee);
+     border-right: 1px solid var(--manatee);
+     text-align: right;
+ }
+ 
+ .rightdiv {
+     border-top: 1px solid var(--manatee);
+     border-bottom: 1px solid var(--manatee);
+ }
+ /*--------------------------------------------*/
+ /* Variables*/
+ /*--------------------------------------------*/
+ 
+ :root {
+     /* Primary */
+     --patrick-blue: #1c3775;
+     --lapis-lazuli: #265e9f;
+     --daz-blue: #235691;
+     --mid-blue: #02b0ef;
+     --independence: #505467;
+     --manatee: #9599a4;
+     --silver-sand: #c4c4c4;
+     --platinum: #e9e9e9;
+     --white: #ffffff;
+     --orange: #ff8500;
+     --candy-red: #a30000;
+     --text-xs: 12px;
+     --text-s: 14px;
+     --text-l: 16px;
+     --text-xl: 18px;
+     --text-xxl: 20px;
+     --text-xxxl: 32px;
+     /* SECONDARY */
+     /* white*/
+     --white-smoke: #F5F5F5;
+     /* patrick-blue */
+     --midnight-blue: #1A326B;
+     /* mid-blue */
+     --rich-electronic-blue: #02A0DA;
+     /* independence */
+     --independence2: #494D5E;
+     /* silver-sand */
+     --ash-grey: #B3B3B3;
+     /* platinum */
+     --light-grey: #D4D4D4;
+     /* Manatee */
+     --roman-silver: #888C96;
+     /* orange */
+     --fulvous: #E87900;
+     /* candy-red */
+     --usc-cardinal: #950000;
+     /* TERTY */
+     /* white */
+     --gainsboro: #DFDFDF;
+     /* patrick-blue  */
+     --cool-black: #172E60;
+     /* mid-blue */
+     --ncs-blue: #0291C4;
+     /* lapis-lazuli */
+     --yale-blue: #204D83;
+     /* independence  */
+     --outer-space: #424555;
+     /* silver-sand */
+     --quick-silver: #A1A1A1;
+     /* platinum*/
+     --silver: #BFBFBF;
+     /* Manatee */
+     --trolley-grey: #7A7E87;
+     /* orange */
+     --tenne: #D16D00;
+     /* candy-red */
+     --deep-red: #860000;
+ }
+ /*--------------------------------------------*/
+ /* Background*/
+ /*--------------------------------------------*/
+ 
+ .bg-patrick-blue {
+     background-color: var(--patrick-blue);
+ }
+ 
+ .bg-midnight-blue {
+     background-color: var(--midnight-blue);
+ }
+ 
+ .bg-cool-black {
+     background-color: var(--cool-black);
+ }
+ 
+ .bg-lapis-lazuli {
+     background-color: var(--lapis-lazuli);
+ }
+ 
+ .bg-daz-blue {
+     background-color: var(--daz-blue);
+ }
+ 
+ .bg-yale-blue {
+     background-color: var(--yale-blue);
+ }
+ 
+ .bg-mid-blue {
+     background-color: var(--mid-blue);
+ }
+ 
+ .bg-rich-electronic-blue {
+     background-color: var(--rich-electronic-blue);
+ }
+ 
+ .bg-ncs-blue {
+     background-color: var(--ncs-blue);
+ }
+ 
+ .bg-independence {
+     background-color: var(--independence);
+ }
+ 
+ .bg-independence2 {
+     background-color: var(--independence2);
+ }
+ 
+ .bg-outer-space {
+     background-color: var(--outer-space);
+ }
+ 
+ .bg-manatee {
+     background-color: var(--manatee);
+ }
+ 
+ .bg-roman-silver {
+     background-color: var(--roman-silver);
+ }
+ 
+ .bg-trolley-grey {
+     background-color: var(--trolley-grey);
+ }
+ 
+ .bg-silver-sand {
+     background-color: var(--silver-sand);
+ }
+ 
+ .bg-ash-grey {
+     background-color: var(--ash-grey);
+ }
+ 
+ .bg-quick-silver {
+     background-color: var(--quick-silver);
+ }
+ 
+ .bg-platinum {
+     background-color: var(--platinum);
+ }
+ 
+ .bg-light-grey {
+     background-color: var(--light-grey);
+ }
+ 
+ .bg-silver {
+     background-color: var(--silver);
+ }
+ 
+ .bg-white {
+     background-color: var(--white);
+ }
+ 
+ .bg-white-smoke {
+     background-color: var(--white-smoke);
+ }
+ 
+ .bg-gainsboro {
+     background-color: var(--gainsboro);
+ }
+ 
+ .bg-orange {
+     background-color: var(--orange);
+ }
+ 
+ .bg-fulvous {
+     background-color: var(--fulvous);
+ }
+ 
+ .bg-tenne {
+     background-color: var(--tenne);
+ }
+ 
+ .bg-candy-red {
+     background-color: var(--candy-red);
+ }
+ 
+ .bg-usc-cardinal {
+     background-color: var(--usc-cardinal);
+ }
+ 
+ .bg-deep-red {
+     background-color: var(--deep-red);
+ }
+ /* Colores de texto */
+ 
+ .text-patrick-blue {
+     color: var(--patrick-blue);
+ }
+ 
+ .text-lapis-lazuli {
+     color: var(--lapis-lazuli);
+ }
+ 
+ .text-daz-blue {
+     color: var(--daz-blue);
+ }
+ 
+ .text-mid-blue {
+     color: var(--mid-blue);
+ }
+ 
+ .text-independence {
+     color: var(--independence);
+ }
+ 
+ .text-manatee {
+     color: var(--manatee);
+ }
+ 
+ .text-silver-sand {
+     color: var(--silver-sand);
+ }
+ 
+ .text-platinum {
+     color: var(--platinum);
+ }
+ 
+ .text-white {
+     color: var(--white);
+ }
+ 
+ .text-orange {
+     color: var(--orange);
+ }
+ 
+ .text-candy-red {
+     color: var(--candy-red);
+ }
+ /*--------------------------------------------*/
+ /* Fuentes */
+ /*--------------------------------------------*/
+ /* Montserrat-Thin */
+ 
+ @font-face {
+     font-family: 'Montserrat';
+     src: url('src/assets/Fonts/Montserrat/Montserrat-Thin.eot');
+     src: url('src/assets/Fonts/Montserrat/Montserrat-Thin.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Montserrat/Montserrat-Thin.woff2') format('woff2'), url('src/assets/Fonts/Montserrat/Montserrat-Thin.woff') format('woff'), url('src/assets/Fonts/Montserrat/Montserrat-Thin.ttf') format('truetype');
+     font-weight: 100;
+     font-style: normal;
+ }
+ /* Montserrat-ThinItalic */
+ 
+ @font-face {
+     font-family: 'Montserrat';
+     src: url('src/assets/Fonts/Montserrat/Montserrat-ThinItalic.eot');
+     src: url('src/assets/Fonts/Montserrat/Montserrat-ThinItalic.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Montserrat/Montserrat-ThinItalic.woff2') format('woff2'), url('src/assets/Fonts/Montserrat/Montserrat-ThinItalic.woff') format('woff'), url('src/assets/Fonts/Montserrat/Montserrat-ThinItalic.ttf') format('truetype');
+     font-weight: 100;
+     font-style: italic;
+ }
+ /* Montserrat-ExtraLight */
+ 
+ @font-face {
+     font-family: 'Montserrat';
+     src: url('src/assets/Fonts/Montserrat/Montserrat-ExtraLight.eot');
+     src: url('src/assets/Fonts/Montserrat/Montserrat-ExtraLight.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Montserrat/Montserrat-ExtraLight.woff2') format('woff2'), url('src/assets/Fonts/Montserrat/Montserrat-ExtraLight.woff') format('woff'), url('src/assets/Fonts/Montserrat/Montserrat-ExtraLight.ttf') format('truetype');
+     font-weight: 200;
+     font-style: normal;
+ }
+ /* Montserrat-ExtraLightItalic */
+ 
+ @font-face {
+     font-family: 'Montserrat';
+     src: url('src/assets/Fonts/Montserrat/Montserrat-ExtraLightItalic.eot');
+     src: url('src/assets/Fonts/Montserrat/Montserrat-ExtraLightItalic.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Montserrat/Montserrat-ExtraLightItalic.woff2') format('woff2'), url('src/assets/Fonts/Montserrat/Montserrat-ExtraLightItalic.woff') format('woff'), url('src/assets/Fonts/Montserrat/Montserrat-ExtraLightItalic.ttf') format('truetype');
+     font-weight: 200;
+     font-style: italic;
+ }
+ /* Montserrat-Light */
+ 
+ @font-face {
+     font-family: 'Montserrat';
+     src: url('src/assets/Fonts/Montserrat/Montserrat-Light.eot');
+     src: url('src/assets/Fonts/Montserrat/Montserrat-Light.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Montserrat/Montserrat-Light.woff2') format('woff2'), url('src/assets/Fonts/Montserrat/Montserrat-Light.woff') format('woff'), url('src/assets/Fonts/Montserrat/Montserrat-Light.ttf') format('truetype');
+     font-weight: 300;
+     font-style: normal;
+ }
+ /* Montserrat-LightItalic */
+ 
+ @font-face {
+     font-family: 'Montserrat';
+     src: url('src/assets/Fonts/Montserrat/Montserrat-LightItalic.eot');
+     src: url('src/assets/Fonts/Montserrat/Montserrat-LightItalic.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Montserrat/Montserrat-LightItalic.woff2') format('woff2'), url('src/assets/Fonts/Montserrat/Montserrat-LightItalic.woff') format('woff'), url('src/assets/Fonts/Montserrat/Montserrat-LightItalic.ttf') format('truetype');
+     font-weight: 300;
+     font-style: italic;
+ }
+ /* Montserrat-Regular */
+ 
+ @font-face {
+     font-family: 'Montserrat';
+     src: url('src/assets/Fonts/Montserrat/Montserrat-Regular.eot');
+     src: url('src/assets/Fonts/Montserrat/Montserrat-Regular.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Montserrat/Montserrat-Regular.woff2') format('woff2'), url('src/assets/Fonts/Montserrat/Montserrat-Regular.woff') format('woff'), url('src/assets/Fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+ }
+ /* Montserrat-Italic */
+ 
+ @font-face {
+     font-family: 'Montserrat';
+     src: url('src/assets/Fonts/Montserrat/Montserrat-Italic.eot');
+     src: url('src/assets/Fonts/Montserrat/Montserrat-Italic.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Montserrat/Montserrat-Italic.woff2') format('woff2'), url('src/assets/Fonts/Montserrat/Montserrat-Italic.woff') format('woff'), url('src/assets/Fonts/Montserrat/Montserrat-Italic.ttf') format('truetype');
+     font-weight: normal;
+     font-style: italic;
+ }
+ /* Montserrat-Medium */
+ 
+ @font-face {
+     font-family: 'Montserrat';
+     src: url('src/assets/Fonts/Montserrat/Montserrat-Medium.eot');
+     src: url('src/assets/Fonts/Montserrat/Montserrat-Medium.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Montserrat/Montserrat-Medium.woff2') format('woff2'), url('src/assets/Fonts/Montserrat/Montserrat-Medium.woff') format('woff'), url('src/assets/Fonts/Montserrat/Montserrat-Medium.ttf') format('truetype');
+     font-weight: 500;
+     font-style: normal;
+ }
+ /* Montserrat-MediumItalic */
+ 
+ @font-face {
+     font-family: 'Montserrat';
+     src: url('src/assets/Fonts/Montserrat/Montserrat-MediumItalic.eot');
+     src: url('src/assets/Fonts/Montserrat/Montserrat-MediumItalic.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Montserrat/Montserrat-MediumItalic.woff2') format('woff2'), url('src/assets/Fonts/Montserrat/Montserrat-MediumItalic.woff') format('woff'), url('src/assets/Fonts/Montserrat/Montserrat-MediumItalic.ttf') format('truetype');
+     font-weight: 500;
+     font-style: italic;
+ }
+ /* Montserrat-SemiBold */
+ 
+ @font-face {
+     font-family: 'Montserrat';
+     src: url('src/assets/Fonts/Montserrat/Montserrat-SemiBold.eot');
+     src: url('src/assets/Fonts/Montserrat/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Montserrat/Montserrat-SemiBold.woff2') format('woff2'), url('src/assets/Fonts/Montserrat/Montserrat-SemiBold.woff') format('woff'), url('src/assets/Fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+     font-weight: 600;
+     font-style: normal;
+ }
+ /* Montserrat-SemiBoldItalic */
+ 
+ @font-face {
+     font-family: 'Montserrat';
+     src: url('src/assets/Fonts/Montserrat/Montserrat-SemiBoldItalic.eot');
+     src: url('src/assets/Fonts/Montserrat/Montserrat-SemiBoldItalic.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Montserrat/Montserrat-SemiBoldItalic.woff2') format('woff2'), url('src/assets/Fonts/Montserrat/Montserrat-SemiBoldItalic.woff') format('woff'), url('src/assets/Fonts/Montserrat/Montserrat-SemiBoldItalic.ttf') format('truetype');
+     font-weight: 600;
+     font-style: italic;
+ }
+ /* Montserrat-Bold */
+ 
+ @font-face {
+     font-family: 'Montserrat';
+     src: url('src/assets/Fonts/Montserrat/Montserrat-Bold.eot');
+     src: url('src/assets/Fonts/Montserrat/Montserrat-Bold.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Montserrat/Montserrat-Bold.woff2') format('woff2'), url('src/assets/Fonts/Montserrat/Montserrat-Bold.woff') format('woff'), url('src/assets/Fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+     font-weight: bold;
+     font-style: normal;
+ }
+ /* Montserrat-BoldItalic */
+ 
+ @font-face {
+     font-family: 'Montserrat';
+     src: url('src/assets/Fonts/Montserrat/Montserrat-BoldItalic.eot');
+     src: url('src/assets/Fonts/Montserrat/Montserrat-BoldItalic.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Montserrat/Montserrat-BoldItalic.woff2') format('woff2'), url('src/assets/Fonts/Montserrat/Montserrat-BoldItalic.woff') format('woff'), url('src/assets/Fonts/Montserrat/Montserrat-BoldItalic.ttf') format('truetype');
+     font-weight: bold;
+     font-style: italic;
+ }
+ /* Montserrat-ExtraBold */
+ 
+ @font-face {
+     font-family: 'Montserrat';
+     src: url('src/assets/Fonts/Montserrat/Montserrat-ExtraBold.eot');
+     src: url('src/assets/Fonts/Montserrat/Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Montserrat/Montserrat-ExtraBold.woff2') format('woff2'), url('src/assets/Fonts/Montserrat/Montserrat-ExtraBold.woff') format('woff'), url('src/assets/Fonts/Montserrat/Montserrat-ExtraBold.ttf') format('truetype');
+     font-weight: 800;
+     font-style: normal;
+ }
+ /* Montserrat-ExtraBoldItalic */
+ 
+ @font-face {
+     font-family: 'Montserrat';
+     src: url('src/assets/Fonts/Montserrat/Montserrat-ExtraBoldItalic.eot');
+     src: url('src/assets/Fonts/Montserrat/Montserrat-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Montserrat/Montserrat-ExtraBoldItalic.woff2') format('woff2'), url('src/assets/Fonts/Montserrat/Montserrat-ExtraBoldItalic.woff') format('woff'), url('src/assets/Fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf') format('truetype');
+     font-weight: 800;
+     font-style: italic;
+ }
+ /* Montserrat-Black */
+ 
+ @font-face {
+     font-family: 'Montserrat';
+     src: url('src/assets/Fonts/Montserrat/Montserrat-Black.eot');
+     src: url('src/assets/Fonts/Montserrat/Montserrat-Black.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Montserrat/Montserrat-Black.woff2') format('woff2'), url('src/assets/Fonts/Montserrat/Montserrat-Black.woff') format('woff'), url('src/assets/Fonts/Montserrat/Montserrat-Black.ttf') format('truetype');
+     font-weight: 900;
+     font-style: normal;
+ }
+ /* Montserrat-BlackItalic */
+ 
+ @font-face {
+     font-family: 'Montserrat';
+     src: url('src/assets/Fonts/Montserrat/Montserrat-BlackItalic.eot');
+     src: url('src/assets/Fonts/Montserrat/Montserrat-BlackItalic.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Montserrat/Montserrat-BlackItalic.woff2') format('woff2'), url('src/assets/Fonts/Montserrat/Montserrat-BlackItalic.woff') format('woff'), url('src/assets/Fonts/Montserrat/Montserrat-BlackItalic.ttf') format('truetype');
+     font-weight: 900;
+     font-style: italic;
+ }
+ /* Ubuntu-Light */
+ 
+ @font-face {
+     font-family: 'Ubuntu';
+     src: url('src/assets/Fonts/Ubuntu/Ubuntu-Light.eot');
+     src: url('src/assets/Fonts/Ubuntu/Ubuntu-Light.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Ubuntu/Ubuntu-Light.woff2') format('woff2'), url('src/assets/Fonts/Ubuntu/Ubuntu-Light.woff') format('woff'), url('src/assets/Fonts/Ubuntu/Ubuntu-Light.ttf') format('truetype');
+     font-weight: 300;
+     font-style: normal;
+ }
+ /* Ubuntu-LightItalic */
+ 
+ @font-face {
+     font-family: 'Ubuntu';
+     src: url('src/assets/Fonts/Ubuntu/Ubuntu-LightItalic.eot');
+     src: url('src/assets/Fonts/Ubuntu/Ubuntu-LightItalic.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Ubuntu/Ubuntu-LightItalic.woff2') format('woff2'), url('src/assets/Fonts/Ubuntu/Ubuntu-LightItalic.woff') format('woff'), url('src/assets/Fonts/Ubuntu/Ubuntu-LightItalic.ttf') format('truetype');
+     font-weight: 300;
+     font-style: italic;
+ }
+ /* Ubuntu-Regular */
+ 
+ @font-face {
+     font-family: 'Ubuntu';
+     src: url('src/assets/Fonts/Ubuntu/Ubuntu-Regular.eot');
+     src: url('src/assets/Fonts/Ubuntu/Ubuntu-Regular.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Ubuntu/Ubuntu-Regular.woff2') format('woff2'), url('src/assets/Fonts/Ubuntu/Ubuntu-Regular.woff') format('woff'), url('src/assets/Fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+ }
+ /* Ubuntu-Italic */
+ 
+ @font-face {
+     font-family: 'Ubuntu';
+     src: url('src/assets/Fonts/Ubuntu/Ubuntu-Italic.eot');
+     src: url('src/assets/Fonts/Ubuntu/Ubuntu-Italic.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Ubuntu/Ubuntu-Italic.woff2') format('woff2'), url('src/assets/Fonts/Ubuntu/Ubuntu-Italic.woff') format('woff'), url('src/assets/Fonts/Ubuntu/Ubuntu-Italic.ttf') format('truetype');
+     font-weight: normal;
+     font-style: italic;
+ }
+ /* Ubuntu-Medium */
+ 
+ @font-face {
+     font-family: 'Ubuntu';
+     src: url('src/assets/Fonts/Ubuntu/Ubuntu-Medium.eot');
+     src: url('src/assets/Fonts/Ubuntu/Ubuntu-Medium.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Ubuntu/Ubuntu-Medium.woff2') format('woff2'), url('src/assets/Fonts/Ubuntu/Ubuntu-Medium.woff') format('woff'), url('src/assets/Fonts/Ubuntu/Ubuntu-Medium.ttf') format('truetype');
+     font-weight: 500;
+     font-style: normal;
+ }
+ /* Ubuntu-MediumItalic */
+ 
+ @font-face {
+     font-family: 'Ubuntu';
+     src: url('src/assets/Fonts/Ubuntu/Ubuntu-MediumItalic.eot');
+     src: url('src/assets/Fonts/Ubuntu/Ubuntu-MediumItalic.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Ubuntu/Ubuntu-MediumItalic.woff2') format('woff2'), url('src/assets/Fonts/Ubuntu/Ubuntu-MediumItalic.woff') format('woff'), url('src/assets/Fonts/Ubuntu/Ubuntu-MediumItalic.ttf') format('truetype');
+     font-weight: 500;
+     font-style: italic;
+ }
+ /* Ubuntu-Bold */
+ 
+ @font-face {
+     font-family: 'Ubuntu';
+     src: url('src/assets/Fonts/Ubuntu/Ubuntu-Bold.eot');
+     src: url('src/assets/Fonts/Ubuntu/Ubuntu-Bold.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Ubuntu/Ubuntu-Bold.woff2') format('woff2'), url('src/assets/Fonts/Ubuntu/Ubuntu-Bold.woff') format('woff'), url('src/assets/Fonts/Ubuntu/Ubuntu-Bold.ttf') format('truetype');
+     font-weight: bold;
+     font-style: normal;
+ }
+ /* Ubuntu-BoldItalic */
+ 
+ @font-face {
+     font-family: 'Ubuntu';
+     src: url('src/assets/Fonts/Ubuntu/Ubuntu-BoldItalic.eot');
+     src: url('src/assets/Fonts/Ubuntu/Ubuntu-BoldItalic.eot?#iefix') format('embedded-opentype'), url('src/assets/Fonts/Ubuntu/Ubuntu-BoldItalic.woff2') format('woff2'), url('src/assets/Fonts/Ubuntu/Ubuntu-BoldItalic.woff') format('woff'), url('src/assets/Fonts/Ubuntu/Ubuntu-BoldItalic.ttf') format('truetype');
+     font-weight: bold;
+     font-style: italic;
+ }
+ /*--------------------------------------------*/
+ /* Textos */
+ /*--------------------------------------------*/
+ 
+ .Montserrat-Thin {
+     font-family: 'Montserrat';
+     font-weight: 100;
+     font-style: normal;
+ }
+ 
+ .Montserrat-ThinItalic {
+     font-family: 'Montserrat';
+     font-weight: 100;
+     font-style: italic;
+ }
+ 
+ .Montserrat-ExtraLight {
+     font-family: 'Montserrat';
+     font-weight: 200;
+     font-style: normal;
+ }
+ 
+ .Montserrat-ExtraLightItalic {
+     font-family: 'Montserrat';
+     font-weight: 200;
+     font-style: italic;
+ }
+ 
+ .Montserrat-Light {
+     font-family: 'Montserrat';
+     font-weight: 300;
+     font-style: normal;
+ }
+ 
+ .Montserrat-LightItalic {
+     font-family: 'Montserrat';
+     font-weight: 300;
+     font-style: italic;
+ }
+ 
+ .Montserrat-Regular {
+     font-family: 'Montserrat';
+     font-weight: normal;
+     font-style: normal;
+ }
+ 
+ .Montserrat-Italic {
+     font-family: 'Montserrat';
+     font-weight: normal;
+     font-style: italic;
+ }
+ 
+ .Montserrat-Medium {
+     font-family: 'Montserrat';
+     font-weight: 500;
+     font-style: normal;
+ }
+ 
+ .Montserrat-MediumItalic {
+     font-family: 'Montserrat';
+     font-weight: 500;
+     font-style: italic;
+ }
+ 
+ .Montserrat-SemiBold {
+     font-family: 'Montserrat';
+     font-weight: 600;
+     font-style: normal;
+ }
+ 
+ .Montserrat-SemiBoldItalic {
+     font-family: 'Montserrat';
+     font-weight: 600;
+     font-style: italic;
+ }
+ 
+ .Montserrat-Bold {
+     font-family: 'Montserrat';
+     font-weight: bold;
+     font-style: normal;
+ }
+ 
+ .Montserrat-BoldItalic {
+     font-family: 'Montserrat';
+     font-weight: bold;
+     font-style: italic;
+ }
+ 
+ .Montserrat-ExtraBold {
+     font-family: 'Montserrat';
+     font-weight: 800;
+     font-style: normal;
+ }
+ 
+ .Montserrat-ExtraBoldItalic {
+     font-family: 'Montserrat';
+     font-weight: 800;
+     font-style: italic;
+ }
+ 
+ .Montserrat-Black {
+     font-family: 'Montserrat';
+     font-weight: 900;
+     font-style: normal;
+ }
+ 
+ .Montserrat-BlackItalic {
+     font-family: 'Montserrat';
+     font-weight: 900;
+     font-style: italic;
+ }
+ 
+ .Ubuntu-Light {
+     font-family: 'Ubuntu';
+     font-weight: 300;
+     font-style: normal;
+ }
+ 
+ .Ubuntu-LightItalic {
+     font-family: 'Ubuntu';
+     font-weight: 300;
+     font-style: italic;
+ }
+ 
+ .Ubuntu-Regular {
+     font-family: 'Ubuntu';
+     font-weight: normal;
+     font-style: normal;
+ }
+ 
+ .Ubuntu-Italic {
+     font-family: 'Ubuntu';
+     font-weight: normal;
+     font-style: italic;
+ }
+ 
+ .Ubuntu-Medium {
+     font-family: 'Ubuntu';
+     font-weight: 500;
+     font-style: normal;
+ }
+ 
+ .Ubuntu-MediumItalic {
+     font-family: 'Ubuntu';
+     font-weight: 500;
+     font-style: italic;
+ }
+ 
+ .Ubuntu-Bold {
+     font-family: 'Ubuntu';
+     font-weight: bold;
+     font-style: normal;
+ }
+ 
+ .Ubuntu-BoldItalic {
+     font-family: 'Ubuntu';
+     font-weight: bold;
+     font-style: italic;
+ }
+ /*--------------------------------------------*/
+ /* Material Icons*/
+ /*--------------------------------------------*/
+ /* Rules for sizing the icon. */
+ 
+ .material-icons.md-18 {
+     font-size: 18px;
+ }
+ 
+ .material-icons.md-24 {
+     font-size: 24px;
+ }
+ 
+ .material-icons.md-36 {
+     font-size: 37px;
+ }
+ 
+ .material-icons.md-48 {
+     font-size: 48px;
+ }
+ /* Rules for using icons as black on a light background. */
+ 
+ .material-icons.md-dark {
+     color: rgba(0, 0, 0, 0.54);
+ }
+ 
+ .material-icons.md-dark.md-inactive {
+     color: rgba(0, 0, 0, 0.26);
+ }
+ /* Rules for using icons as white on a dark background. */
+ 
+ .material-icons.md-light {
+     color: rgba(255, 255, 255, 1);
+ }
+ 
+ .material-icons.md-light.md-inactive {
+     color: rgba(255, 255, 255, 0.3);
+ }
+ 
+ .material-icons.md-patrick-blue {
+     color: var(--patrick-blue)
+ }
+ 
+ .material-icons.md-lapis-lazuli {
+     color: var(--lapis-lazuli)
+ }
+ 
+ .material-icons.md-mid-blue {
+     color: var(--mid-blue)
+ }
+ 
+ .material-icons.md-independence {
+     color: var(--independence)
+ }
+ 
+ .material-icons.md-manatee {
+     color: var(--manatee)
+ }
+ 
+ .material-icons.md-silver-sand {
+     color: var(--silver-sand)
+ }
+ 
+ .material-icons.md-platinum {
+     color: var(--platinum)
+ }
+ 
+ .material-icons.md-white {
+     color: var(--white)
+ }
+ 
+ .material-icons.md-orange {
+     color: var(--orange)
+ }
+ 
+ .material-icons.md-candy-red {
+     color: var(--candy-red)
+ }
+ /*--------------------------------------------*/
+ /*Tamaños de texto*/
+ /*--------------------------------------------*/
+ 
+ .text-xs {
+     font-size: 12px;
+     line-height: 17px;
+ }
+ 
+ .text-s {
+     font-size: 14px;
+     line-height: 19px;
+ }
+ 
+ .text-l {
+     font-size: 16px;
+     line-height: 22px;
+ }
+ 
+ .text-xl {
+     font-size: 18px;
+     line-height: 23px;
+ }
+ 
+ .text-xxl {
+     font-size: 20px;
+     line-height: 26px;
+ }
+ 
+ .text-xxxl {
+     font-size: 32px;
+     line-height: 38px;
+ }
+ /*--------------------------------------------*/
+ /*Transformaciones de texto*/
+ /*--------------------------------------------*/
+ 
+ .uppercase {
+     text-transform: uppercase;
+ }
+ 
+ .underline {
+     text-decoration: underline;
+ }
+ 
+ .capitalize {
+     text-transform: capitalize;
+ }
+ /*--------------------------------------------*/
+ /*Tamaño y margen en encabezados*/
+ /*--------------------------------------------*/
+ 
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p {
+     margin: 0;
+ }
+ 
+ .h1,
+ h1 {
+     font-size: 34px;
+     margin-bottom: 30px;
+ }
+ 
+ .h2,
+ h2 {
+     font-size: 32px;
+     margin-bottom: 30px;
+ }
+ 
+ .h3,
+ h3 {
+     font-size: 24px;
+     margin-bottom: 25px;
+ }
+ 
+ .h4,
+ h4 {
+     font-size: 20px;
+     margin-bottom: 10px;
+ }
+ 
+ .h5,
+ h5 {
+     font-size: 18px;
+     margin-bottom: 15px;
+ }
+ 
+ .h6,
+ h6 {
+     font-size: 13px;
+     margin-bottom: 10px;
+ }
+ /*--------------------------------------------*/
+ /*Content Padding*/
+ /*--------------------------------------------*/
+ 
+ .padding {
+     padding: 10px !important;
+ }
+ 
+ .no-padding {
+     padding: 0 !important;
+ }
+ 
+ .padding-top,
+ .padding-vertical {
+     padding-top: 10px !important;
+ }
+ 
+ .padding-right,
+ .padding-horizontal {
+     padding-right: 10px !important;
+ }
+ 
+ .padding-bottom,
+ .padding-vertical {
+     padding-bottom: 10px !important;
+ }
+ 
+ .padding-left,
+ .padding-horizontal {
+     padding-left: 10px !important;
+ }
+ /*--------------------------------------------*/
+ /*Content Margin*/
+ /*--------------------------------------------*/
+ 
+ .no-margin {
+     margin: 0 !important;
+ }
+ /*--------------------------------------------*/
+ /* Alignment */
+ /*--------------------------------------------*/
+ 
+ .alignment-right {
+     margin-left: auto !important;
+ }
+ 
+ .alignment-left {
+     margin-right: auto !important;
+ }
+ 
+ .alignment-center {
+     margin-left: auto !important;
+     margin-right: auto !important;
+ }
+ 
+ .margin-right {
+     margin-right: 10px;
+ }
+ 
+ .margin-left {
+     margin-left: 10px;
+ }
+ /*--------------------------------------------*/
+ /* Text alignment */
+ /*--------------------------------------------*/
+ 
+ .text-justify {
+     text-align: justify;
+ }
+ 
+ .text-left {
+     text-align: left;
+ }
+ 
+ .text-center {
+     text-align: center;
+ }
+ 
+ .text-right {
+     text-align: right;
+ }
+ 
+ .relative {
+     position: relative;
+ }
+ /*--------------------------------------------*/
+ /*Estilos guía para encabezados*/
+ /*--------------------------------------------*/
+ 
+ .am-info-title {
+     font-family: 'Montserrat';
+     font-weight: 300;
+     font-style: normal;
+     color: var(--mid-blue);
+     font-size: 3em;
+     margin-bottom: 15px;
+ }
+ 
+ .am-info-text {
+     font-family: 'Ubuntu';
+     font-weight: 300;
+     font-style: normal;
+     line-height: 22px;
+     color: var(--independence);
+     padding-bottom: 30px;
+ }
+ 
+ .title-header-name {
+     font-family: 'Montserrat';
+     font-weight: bold;
+     font-style: italic;
+     font-size: 22px;
+     color: var(--white);
+ }
+ 
+ .title-user {
+     font-family: 'Montserrat';
+     font-weight: 600;
+     font-style: italic;
+     font-size: var(--text-l);
+     line-height: 22px;
+     color: var(--independence);
+ }
+ 
+ .title-section {
+     font-family: 'Ubuntu';
+     font-weight: bold;
+     font-style: italic;
+     font-size: var(--text-xl);
+     line-height: 25px;
+     color: var(--lapis-lazuli);
+ }
+ 
+ .title-bullets {
+     font-family: 'Ubuntu';
+     font-weight: bold;
+     font-style: italic;
+     font-size: var(--text-xl);
+     line-height: 23px;
+     color: var(--independence);
+ }
+ 
+ .title-breadcrump {
+     font-family: 'Ubuntu';
+     font-weight: normal;
+     font-style: italic;
+     font-size: var(--text-xl);
+     line-height: 23px;
+     color: var(--manatee);
+ }
+ 
+ .text-content {
+     font-family: 'Ubuntu';
+     font-weight: 400;
+     font-style: normal;
+     font-size: var(--text-l);
+     line-height: 22px;
+     color: var(--independence);
+ }
+ 
+ .text-content-italic {
+     font-family: 'Ubuntu';
+     font-weight: 400;
+     font-style: italic;
+     font-size: var(--text-l);
+     line-height: 22px;
+     color: var(--independence);
+ }
+ 
+ .text-label {
+     font-family: 'Montserrat';
+     font-weight: 600;
+     font-style: italic;
+     font-size: var(--text-s);
+     line-height: 19px;
+     color: var(--independence);
+ }
+ /*--------------------------------------------*/
+ /*Estilo guía para el cuerpo del sitio*/
+ /*--------------------------------------------*/
+ 
+ html {
+     height: 100%;
+     min-height: 100%;
+ }
+ 
+ body {
+     margin: 0px;
+     font-family: 'Ubuntu';
+     font-weight: normal;
+     font-style: normal;
+     height: 100%;
+     min-height: 100%;
+     box-sizing: border-box;
+ }
+ 
+ * {
+     -webkit-font-smoothing: antialased;
+     -moz-osx-font-smoothing: antialased;
+ }
+ 
+ .fractal-triangles {
+     background-color: var(--platinum);
+     background-image: url("../src/assets/img/fractal.png");
+     background-repeat: no-repeat;
+     background-position: 100px 100px;
+     background-size: cover;
+     height: 100%;
+     min-height: 100%;
+ }
+ 
+ .fractal-circles {
+     background-color: var(--platinum);
+     background-image: url("../src/assets/img/circles40.png");
+     background-repeat: no-repeat;
+     background-position: bottom right;
+     background-size: cover;
+     height: 100%;
+     min-height: 100%;
+ }
+ 
+ .flex-center {
+     display: flex;
+     align-items: center;
+ }
+ 
+ .flex-center-between {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ .flex-column-center {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .flex-column-start {
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+ }
+ 
+ .centereditemsflexcontainer {
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     flex-direction: column;
+     text-align: center;
+ }
+ 
+ .maincontainer {
+     position: relative;
+     left: 0;
+     height: 100%;
+     width: 100%;
+ }
+ 
+ .sidebarcomponent {
+     position: absolute;
+     left: 0;
+     width: 60px;
+     height: 100%;
+ }
+ 
+ .subcontainer {
+     position: absolute;
+     left: 60px;
+     height: 100%;
+     /* width: calc(100vw - 60px); */
+     width: calc(100% - 60px);
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .headercomponent {
+     height: 60px;
+     min-height: 60px;
+ }
+ 
+ .contentcomponent {
+     flex-grow: 1;
+     overflow-y: auto;
+ }
+ 
+ .contentcomponent::-webkit-scrollbar-track {
+     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+     background-color: var(--white-smoke);
+     border-radius: 10px;
+ }
+ 
+ .contentcomponent::-webkit-scrollbar {
+     width: 5px;
+     background-color: var(--white-smoke);
+ }
+ 
+ .contentcomponent::-webkit-scrollbar-thumb {
+     border-radius: 10px;
+     background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, rgb(38, 94, 159)), color-stop(0.86, rgb(28, 55, 117)));
+ }
+ 
+ .padding-30-60 {
+     padding: 30px 60px;
+ }
+ /*--------------------------------------------*/
+ /*Estilos guía para botones*/
+ /*--------------------------------------------*/
+ 
+ .am-button {
+     font-family: 'Ubuntu';
+     font-weight: bold;
+     font-style: normal;
+     font-size: var(--text-l);
+     border-color: transparent;
+     border-style: solid;
+     border-radius: 8px 2px 8px 2px;
+     display: inline-block;
+     margin: 0;
+     cursor: pointer;
+     background-color: var(--lapis-lazuli);
+     color: var(--white);
+ }
+ 
+ .am-button:hover {
+     background-color: var(--daz-blue);
+ }
+ 
+ .am-button:active {
+     background-color: var(--patrick-blue);
+ }
+ /* Botones background */
+ 
+ .ui-button.button-solid {
+     font-family: 'Ubuntu';
+     font-weight: bold;
+     font-style: normal;
+     /* font-size: var(--text-l); */
+     font-size: var(--text-xs);
+     text-transform: uppercase;
+     color: var(--white);
+     border-color: transparent;
+     border-style: solid;
+     border-radius: 8px 2px 8px 2px;
+     display: inline-block;
+     min-width: 170px;
+     min-height: 40px;
+     margin: 0;
+     cursor: pointer;
+     /* padding: 0.563em 1em; */
+ }
+ 
+ .ui-button.button-solid:enabled:focus {
+     outline: none;
+     box-shadow: none;
+ }
+ /* color background normal*/
+ 
+ .ui-button.button-normal {
+     background-color: var(--lapis-lazuli);
+ }
+ 
+ .ui-button.button-normal:enabled:hover {
+     background-color: var(--daz-blue);
+     border-color: var(--daz-blue);
+ }
+ 
+ .ui-button.button-normal:active {
+     background-color: var(--yale-blue);
+ }
+ /* color background pressed */
+ 
+ .ui-button.button-pressed {
+     background-color: var(--patrick-blue);
+ }
+ 
+ .ui-button.button-pressed:enabled:hover {
+     background-color: var(--midnight-blue);
+     border-color: var(--midnight-blue);
+ }
+ 
+ .ui-button.button-pressed:active {
+     background-color: var(--cool-black);
+ }
+ /* color background manatee */
+ 
+ .ui-button.button-disabled {
+     background-color: var(--manatee);
+ }
+ 
+ .ui-button.button-disabled:enabled:hover {
+     background-color: var(--roman-silver);
+     border-color: var(--roman-silver);
+ }
+ 
+ .ui-button.button-disabled:active {
+     background-color: var(--trolley-grey);
+ }
+ /* Botones border */
+ 
+ .ui-button.button-border {
+     font-family: 'Ubuntu';
+     font-weight: bold;
+     font-style: normal;
+     /* font-size: var(--text-l); */
+     font-size: var(--text-xs);
+     text-transform: uppercase;
+     background-color: var(--white);
+     border-style: solid;
+     border-radius: 8px 2px 8px 2px;
+     display: inline-block;
+     width: 170px;
+     min-height: 40px;
+     margin: 0;
+     cursor: pointer;
+     /* padding: 0.563em 1em; */
+ }
+ 
+ .ui-button.button-border:enabled:focus {
+     outline: none;
+     box-shadow: none;
+ }
+ /* color background normal*/
+ 
+ .ui-button.border-normal {
+     border: 2px solid var(--lapis-lazuli);
+     color: var(--lapis-lazuli);
+ }
+ 
+ .ui-button.border-normal:enabled:hover {
+     background-color: var(--white);
+     border: 2px solid var(--daz-blue);
+     color: var(--daz-blue);
+ }
+ 
+ .ui-button.border-normal:active {
+     border: 2px solid var(--yale-blue);
+     color: var(--yale-blue);
+ }
+ /* color background pressed*/
+ 
+ .ui-button.border-pressed {
+     border: 2px solid var(--patrick-blue);
+     color: var(--patrick-blue);
+ }
+ 
+ .ui-button.border-pressed:enabled:hover {
+     background-color: var(--white);
+     border: 2px solid var(--midnight-blue);
+     color: var(--midnight-blue);
+ }
+ 
+ .ui-button.border-pressed:active {
+     border: 2px solid var(--cool-black);
+     color: var(--cool-black);
+ }
+ /* color background manatee */
+ 
+ .ui-button.border-disabled {
+     border: 2px solid var(--manatee);
+     color: var(--manatee);
+ }
+ 
+ .ui-button.border-disabled:enabled:hover {
+     background-color: var(--white);
+     border: 2px solid var(--roman-silver);
+     color: var(--roman-silver);
+ }
+ 
+ .ui-button.border-disabled:active {
+     border: 2px solid var(--trolley-grey);
+     color: var(--trolley-grey);
+ }
+ /*--------------------------------------------*/
+ /*Estilos guía para backgrounds*/
+ /*--------------------------------------------*/
+ 
+ .gradient-top-to-back {
+     background-image: linear-gradient(var(--lapis-lazuli), var(--patrick-blue));
+ }
+ /*--------------------------------------------*/
+ /*Estilos guía para links*/
+ /*--------------------------------------------*/
+ 
+ .link-white {
+     font-family: 'Ubuntu';
+     font-weight: normal;
+     font-style: normal;
+     font-style: italic;
+     font-size: var(--text-xl);
+     line-height: 21px;
+     color: var(--white);
+     background-color: transparent;
+     border: 0;
+     display: block;
+     cursor: pointer;
+ }
+ 
+ .link-white:hover {
+     /* color: var(--manatee); */
+     color: var(--light-grey);
+ }
+ 
+ .link-blue {
+     font-family: 'Ubuntu';
+     font-weight: bold;
+     font-style: normal;
+     font-size: var(--text-xs);
+     line-height: 21px;
+     background-color: transparent;
+     border: 0;
+     display: block;
+     width: 100%;
+     cursor: pointer;
+     color: var(--lapis-lazuli);
+     text-decoration: underline;
+     text-transform: uppercase;
+ }
+ 
+ .link-blue:hover {
+     color: var(--daz-blue);
+ }
+ 
+ .link-white-menu {
+     font-family: 'Ubuntu';
+     font-weight: normal;
+     font-style: normal;
+     font-style: italic;
+     font-size: var(--text-xl);
+     line-height: 21px;
+     color: var(--white);
+     background-color: transparent;
+     border: 0;
+     cursor: pointer;
+     display: flex;
+     align-items: flex-start;
+     vertical-align: middle;
+     padding: 0.5em 20px !important;
+     border-left: 2px solid transparent;
+ }
+ 
+ .link-white-menu:hover {
+     color: var(--light-grey);
+     cursor: pointer;
+     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(28, 55, 117, 1)), to(rgba(38, 94, 159, 1)));
+     background-image: linear-gradient(rgba(28, 55, 117, 1), rgba(38, 94, 159, 1));
+     border-left: 2px solid #02B0EF;
+ }
+ /*--------------------------------------------*/
+ /*Estilos guía para Formularios*/
+ /*--------------------------------------------*/
+ 
+ .form-group {
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .label-text {
+     font-family: 'Montserrat';
+     font-weight: 600;
+     font-style: italic;
+     font-size: var(--text-s);
+     color: var(--independence);
+ }
+ /* Input text */
+ 
+ body .ui-inputtext.input-text,
+ body .ui-calendar.ui-calendar-w-btn .ui-inputtext,
+ body .ui-autocomplete .ui-autocomplete-input,
+ body .ui-dropdown.input-select {
+     width: 100%;
+     max-width: 270px;
+     border: 2px solid var(--manatee);
+     height: 33px;
+     border-radius: 4px;
+     margin-top: 10px;
+     font-family: 'Ubuntu';
+     font-weight: normal;
+     font-style: normal;
+     font-size: var(--text-l);
+     font-style: italic;
+     color: var(--independence);
+     padding: 0 36px 0 8px;
+     -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+     -ms-border-radius: 4px;
+     -o-border-radius: 4px;
+ }
+ 
+ .ui-autocomplete-loader {
+     margin-top: -.2em!important;
+ }
+ 
+ body .ui-inputtext.input-text::placeholder {
+     font-family: 'Ubuntu';
+     font-weight: normal;
+     font-style: normal;
+     font-size: var(--text-l);
+     font-style: italic;
+     color: var(--manatee);
+ }
+ 
+ body .ui-inputtext.input-text:enabled:hover:not(.ui-state-error),
+ body .ui-inputtext.input-text:enabled:focus:not(.ui-state-error) {
+     border: 2px solid var(--independence);
+ }
+ 
+ body .ui-inputtext.input-text:focus {
+     outline: none;
+     border: 2px solid var(--independence);
+     color: var(--independence);
+ }
+ 
+ .ui-inputgroup .ui-inputtext.input-text:not(:last-child) {
+     border: 2px solid var(--manatee);
+     border-radius: 4px;
+ }
+ /* Input icon */
+ 
+ .form-group-icon .ui-inputgroup {
+     position: relative;
+     max-width: 270px;
+ }
+ 
+ body .ui-inputgroup .ui-inputgroup-addon.input-icon {
+     height: 33px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: transparent;
+     border: 0;
+     position: absolute;
+     right: 0;
+     bottom: 0;
+ }
+ 
+ body .ui-inputgroup .ui-inputgroup-addon.input-icon .material-icons {
+     color: var(--manatee);
+ }
+ 
+ body .ui-inputtext.input-text:enabled:hover:not(.ui-state-error)~span.input-icon .material-icons,
+ body .ui-inputtext.input-text:focus~span.input-icon .material-icons {
+     color: var(--independence);
+ }
+ /* Input calendar */
+ 
+ body .ui-calendar {
+     width: 100%;
+     max-width: 270px;
+ }
+ 
+ body .ui-calendar.ui-calendar-w-btn .ui-datepicker-trigger.ui-button {
+     background-color: transparent;
+     border: 0;
+     position: absolute;
+     bottom: 0;
+     height: 33px;
+     right: 0;
+ }
+ 
+ body .form-group-icon .ui-button-icon-only .pi-calendar:before {
+     color: var(--manatee);
+ }
+ 
+ body .ui-calendar.ui-calendar-w-btn .ui-inputtext.input-text {
+     border: 2px solid var(--manatee);
+     border-radius: 4px;
+     -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+     -ms-border-radius: 4px;
+     -o-border-radius: 4px;
+ }
+ 
+ body .ui-calendar.ui-calendar-w-btn .ui-inputtext.input-text:enabled:hover {
+     color: var(--independence);
+     border: 2px solid var(--independence);
+ }
+ 
+ body .ui-calendar.ui-calendar-w-btn .ui-inputtext.input-text:enabled:hover:not(.ui-state-error),
+ body .ui-calendar.ui-calendar-w-btn .ui-inputtext.input-text:enabled:focus:not(.ui-state-error) {
+     border: 2px solid var(--independence);
+ }
+ 
+ body .ui-calendar.ui-calendar-w-btn .ui-inputtext.input-text:enabled:hover~.ui-button-icon-only .pi-calendar:before,
+ body .ui-calendar.ui-calendar-w-btn .ui-inputtext.input-text:enabled:focus~.ui-button-icon-only .pi-calendar:before {
+     color: var(--independence);
+ }
+ 
+ body .ui-calendar.ui-calendar-w-btn .ui-datepicker-trigger.ui-button:enabled:focus {
+     outline: 0 none;
+     box-shadow: none;
+ }
+ 
+ body .ui-calendar.ui-calendar-w-btn .ui-datepicker-trigger.ui-button:enabled:hover .pi-calendar:before,
+ body .ui-calendar.ui-calendar-w-btn .ui-datepicker-trigger.ui-button:enabled:focus .pi-calendar:before {
+     color: var(--independence);
+ }
+ /* Input select */
+ 
+ .form-group-select {
+     position: relative;
+     max-width: 270px;
+ }
+ 
+ body .ui-dropdown.input-select:not(.ui-state-disabled):hover {
+     color: var(--independence);
+ }
+ 
+ body .ui-dropdown.input-select:not(.ui-state-disabled):hover .ui-dropdown-trigger-icon {
+     color: var(--independence);
+ }
+ 
+ body .ui-dropdown.input-select:not(.ui-state-disabled):hover .ui-inputtext {
+     color: var(--independence);
+ }
+ 
+ body .input-select .ui-inputtext {
+     font-family: 'Ubuntu';
+     font-weight: normal;
+     font-style: normal;
+     font-size: var(--text-l);
+     font-style: italic;
+     color: var(--manatee);
+     padding: 2px;
+     display: flex;
+     align-items: center;
+     height: 100%
+ }
+ 
+ body .input-select.ui-dropdown:not(.ui-state-disabled).ui-state-focus {
+     border-color: var(--independence);
+ }
+ 
+ body .input-select.ui-dropdown:not(.ui-state-disabled).ui-state-focus .ui-inputtext,
+ body .input-select.ui-dropdown:not(.ui-state-disabled).ui-state-focus .ui-dropdown-trigger-icon {
+     color: var(--independence);
+ }
+ 
+ body .input-select .ui-dropdown-panel {
+     background-color: transparent;
+ }
+ 
+ body .input-select .ui-dropdown-panel .ui-dropdown-items .ui-dropdown-item:not(.ui-state-highlight):not(.ui-state-disabled):hover {
+     background-color: var(--white);
+     border: 2px solid var(--independence);
+     border-radius: 4px;
+ }
+ 
+ body .input-select .ui-dropdown-panel .ui-dropdown-items .ng-star-inserted:last-child .ui-dropdown-item {
+     border-bottom: 2px solid var(--manatee);
+ }
+ 
+ body .input-select .ui-dropdown-panel .ui-dropdown-items .ui-dropdown-item {
+     color: var(--manatee);
+     background-color: var(--white);
+     border: 2px solid var(--manatee);
+     border-radius: 4px;
+     min-height: 33px;
+     min-height: 33px;
+     padding: 0;
+     display: flex;
+     align-items: center;
+     padding: 0 8px;
+ }
+ 
+ body .ui-dropdown-panel .ui-dropdown-items .ui-dropdown-item:not(.ui-state-highlight):not(.ui-state-disabled):hover {
+     border-color: var(--independence);
+     background-color: var(--white);
+ }
+ 
+ body .input-select .ui-dropdown-panel .ui-dropdown-items .ui-dropdown-item.ui-state-highlight {
+     border-color: var(--independence);
+     background-color: var(--white);
+     color: var(--independence);
+ }
+ /* Buton multiple */
+ 
+ body .button-multiple.ui-selectbutton {
+     border: 2px solid var(--lapis-lazuli);
+     color: var(--lapis-lazuli);
+     border-radius: 12px 0 12px 0;
+     -webkit-border-radius: 12px 0 12px 0;
+     -moz-border-radius: 12px 0 12px 0;
+     -ms-border-radius: 12px 0 12px 0;
+     -o-border-radius: 12px 0 12px 0;
+ }
+ 
+ body .button-multiple.ui-selectbutton .ui-button {
+     min-width: 67px;
+     min-height: 40px;
+     padding: 0 12px;
+     font-family: 'Ubuntu';
+     font-weight: bold;
+     font-style: normal;
+     font-size: var(--text-xs);
+     color: var(--lapis-lazuli);
+     text-transform: uppercase;
+     background-color: var(--white);
+     border-right: 2px solid var(--lapis-lazuli);
+     border-left: 0;
+     border-top: 0;
+     border-bottom: 0;
+ }
+ 
+ body .button-multiple.ui-selectbutton .ui-button:first-child {
+     border-left: 0;
+     border-top-left-radius: 12px;
+ }
+ 
+ body .button-multiple.ui-selectbutton .ui-button:last-child {
+     border-top-right-radius: 0;
+     border-bottom-right-radius: 12px;
+     border-right: 0;
+ }
+ 
+ body .button-multiple.ui-selectbutton .ui-button span.ui-button-text {
+     height: auto;
+     min-height: 40px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ body .button-multiple.ui-selectbutton .ui-button.ui-state-active:not(.ui-state-disabled):hover,
+ body .button-multiple.ui-selectbutton .ui-button:not(.ui-state-disabled):not(.ui-state-active):hover,
+ body .button-multiple.ui-selectbutton .ui-button.ui-state-active {
+     background-color: var(--lapis-lazuli);
+     border-right: 2px solid var(--lapis-lazuli);
+     border-radius: 0;
+     -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+     -ms-border-radius: 0;
+     -o-border-radius: 0;
+     color: var(--white);
+ }
+ 
+ body .button-multiple.ui-selectbutton .ui-button:first-child.ui-state-active:not(.ui-state-disabled):hover {
+     border-top-left-radius: 8px;
+ }
+ 
+ body .button-multiple.ui-selectbutton .ui-button:last-child.ui-state-active:not(.ui-state-disabled):hover {
+     border-bottom-right-radius: 8px;
+     border-right: 0;
+ }
+ 
+ body .button-multiple.ui-selectbutton .ui-button:first-child:not(.ui-state-disabled):not(.ui-state-active):hover {
+     border-top-left-radius: 8px;
+ }
+ 
+ body .button-multiple.ui-selectbutton .ui-button:last-child:not(.ui-state-disabled):not(.ui-state-active):hover {
+     border-bottom-right-radius: 8px;
+     border-right: 0;
+ }
+ 
+ body .button-multiple.ui-selectbutton .ui-button:first-child.ui-state-active {
+     border-top-left-radius: 8px;
+ }
+ 
+ body .button-multiple.ui-selectbutton .ui-button:last-child.ui-state-active {
+     border-bottom-right-radius: 8px;
+     border-right: 0;
+ }
+ 
+ body .button-multiple.ui-selectbutton .ui-button.ui-state-focus {
+     background-color: var(--white);
+     border-right: 2px solid var(--lapis-lazuli);
+     color: var(--lapis-lazuli);
+ }
+ 
+ body .button-multiple.ui-selectbutton .ui-button.ui-state-active.ui-state-focus {
+     background-color: var(--lapis-lazuli);
+ }
+ /* Button multiple dual */
+ 
+ body .button-multiple.button-multiple-dual.ui-selectbutton .ui-button {
+     padding: 0 25.18px;
+ }
+ /* Radio Button */
+ 
+ body p-radiobutton {
+     width: 70px;
+     height: 40px;
+     position: relative;
+     display: inline-block;
+     cursor: pointer;
+ }
+ 
+ body p-radiobutton .button-radio.ui-radiobutton {
+     position: absolute;
+     width: 70px;
+     height: 40px;
+ }
+ 
+ body p-radiobutton .button-radio.ui-radiobutton:hover~label {
+     color: var(--white);
+ }
+ 
+ body p-radiobutton .button-radio.ui-radiobutton .ui-radiobutton-box {
+     width: 70px;
+     height: 40px;
+     background-color: var(--white);
+     border-radius: 8px 0;
+     border: 2px solid var(--lapis-lazuli);
+ }
+ 
+ body p-radiobutton .button-radio.ui-radiobutton .ui-radiobutton-box.ui-state-active {
+     background-color: var(--lapis-lazuli);
+ }
+ 
+ body p-radiobutton .button-radio.ui-radiobutton .ui-radiobutton-box.ui-state-focus {
+     border: 2px solid var(--lapis-lazuli);
+     box-shadow: none;
+ }
+ 
+ body p-radiobutton .button-radio.ui-radiobutton .ui-radiobutton-box.ui-state-active:not(.ui-state-disabled):hover {
+     background-color: var(--lapis-lazuli);
+     border: 2px solid var(--lapis-lazuli);
+ }
+ 
+ body p-radiobutton .button-radio.ui-radiobutton .ui-radiobutton-box:not(.ui-state-disabled):not(.ui-state-active):hover {
+     background-color: var(--lapis-lazuli);
+     border: 2px solid var(--lapis-lazuli);
+ }
+ 
+ body p-radiobutton .button-radio.ui-radiobutton .ui-radiobutton-box .ui-radiobutton-icon {
+     background-color: transparent;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     border-radius: 0;
+     margin: 0;
+ }
+ 
+ body p-radiobutton .ui-radiobutton-label {
+     font-family: 'Ubuntu';
+     font-weight: bold;
+     font-style: normal;
+     font-size: var(--text-xs);
+     color: var(--lapis-lazuli);
+     text-transform: uppercase;
+     background-color: transparent;
+     width: auto;
+     height: auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 0;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     -o-transform: translate(-50%, -50%);
+     cursor: pointer;
+ }
+ 
+ body p-radiobutton .ui-radiobutton-label.ui-label-active {
+     color: var(--white);
+ }
+ /* Toogle button */
+ 
+ body .button-toggle.ui-inputswitch .ui-inputswitch-slider {
+     background-color: var(--silver-sand);
+ }
+ 
+ body .button-toggle.ui-inputswitch:not(.ui-state-disabled):hover .ui-inputswitch-slider {
+     background-color: var(--manatee);
+ }
+ 
+ body .button-toggle.ui-inputswitch.ui-inputswitch-checked .ui-inputswitch-slider {
+     background-color: var(--lapis-lazuli);
+ }
+ 
+ body .button-toggle.ui-inputswitch.ui-inputswitch-checked:not(.ui-state-disabled):hover .ui-inputswitch-slider {
+     background-color: var(--daz-blue);
+ }
+ /*--------------------------------------------*/
+ /*Estilos guía para Modals*/
+ /*--------------------------------------------*/
+ 
+ body .ui-dialog.modal {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+     border-radius: 12px;
+ }
+ 
+ body .ui-dialog.modal .ui-dialog-titlebar {
+     width: 100%;
+     height: 76px;
+     border: 0;
+     border-radius: 12px 12px 0 0;
+     background-image: linear-gradient(to left, var(--lapis-lazuli), var(--patrick-blue));
+     background-repeat: no-repeat;
+     background-position: right;
+     background-size: contain;
+     padding: 0 20px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     position: relative;
+ }
+ 
+ body .ui-dialog.modal .ui-dialog-titlebar:before {
+     width: 16px;
+     content: url('src/assets/Imagotipo-menu.png');
+     /* background-image: url('src/assets/Imagotipo-menu.png'); */
+     position: absolute;
+     right: 0;
+     bottom: 0;
+     width: 66px;
+ }
+ 
+ body .ui-dialog.modal .ui-dialog-titlebar .ui-dialog-title {
+     font-family: 'Ubuntu';
+     font-weight: bold;
+     font-style: normal;
+     font-size: 26px;
+     color: var(--white);
+ }
+ 
+ body .ui-dialog.modal .ui-dialog-titlebar .ui-dialog-titlebar-icon {
+     display: none;
+ }
+ 
+ body .ui-dialog.modal .ui-dialog-footer {
+     width: 100%;
+     height: 40px;
+     border: 0;
+     border-radius: 0 0 12px 12px;
+     padding: 0;
+ }
+ 
+ body .ui-dialog.modal .ui-dialog-footer p-footer {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ body .ui-dialog.modal .ui-dialog-footer button {
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     font-size: var(--text-l);
+     font-family: 'Ubuntu';
+     font-weight: bold;
+     font-style: normal;
+     color: var(--white);
+     background-color: transparent;
+     border: 0;
+     text-transform: uppercase;
+     outline: none;
+ }
+ /* Modal Small */
+ 
+ body .ui-dialog.modal-small .ui-dialog-content {
+     width: 100%;
+     height: calc(400px - (76px + 40px));
+     background-color: var(--white);
+     border: 0;
+ }
+ /* Modal Medium */
+ 
+ body .ui-dialog.modal-medium .ui-dialog-content {
+     width: 100%;
+     height: calc(561px - (76px + 40px));
+     background-color: var(--white);
+     border: 0;
+ }
+ /* Modal Big */
+ 
+ body .ui-dialog.modal-big .ui-dialog-content {
+     width: 100%;
+     height: calc(650px - (76px + 40px));
+     /*height: calc(500px - (76px + 40px));*/
+     background-color: var(--white);
+     border: 0;
+ }
+ /* middle */
+ 
+ body .ui-dialog.modal-big-middle {
+     width: 100%;
+     background-color: var(--white);
+     border: 0;
+ }
+ 
+ body .ui-dialog.modal-big-middle .ui-dialog-content {
+     width: 100%;
+     height: auto;
+     border: 0;
+     padding: 0 1em;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ body .ui-dialog.modal-big-middle .ui-dialog-footer {
+     margin-bottom: -1px;
+ }
+ 
+ body .ui-dialog.modal-big-middle .ui-dialog-content p {
+     font-family: 'Montserrat';
+     font-weight: 600;
+     font-style: italic;
+     font-size: var(--text-s);
+     padding: 0 0 8px 0px;
+ }
+ /* Modal Success */
+ 
+ body .ui-dialog.modal.modal-success .ui-dialog-titlebar {
+     background-image: none;
+     background-color: var(--mid-blue);
+ }
+ 
+ body .ui-dialog.modal.modal-success .ui-dialog-footer button {
+     background-color: var(--mid-blue);
+     cursor: pointer;
+     border-radius: 0 0 12px 12px;
+ }
+ 
+ body .ui-dialog.modal.modal-success .ui-dialog-footer button:enabled:focus {
+     box-shadow: none;
+     background-color: var(--rich-electronic-blue);
+ }
+ /* Modal Warning */
+ 
+ body .ui-dialog.modal.modal-warning .ui-dialog-titlebar {
+     background-image: none;
+     background-color: var(--orange);
+ }
+ 
+ body .ui-dialog.modal.modal-warning .ui-dialog-footer button {
+     background-color: var(--orange);
+     cursor: pointer;
+     border-radius: 0 0 12px 12px;
+     -webkit-border-radius: 0 0 12px 12px;
+     -moz-border-radius: 0 0 12px 12px;
+     -ms-border-radius: 0 0 12px 12px;
+     -o-border-radius: 0 0 12px 12px;
+ }
+ 
+ body .ui-dialog.modal.modal-warning .ui-dialog-footer button:enabled:focus {
+     box-shadow: none;
+     background-color: var(--fulvous);
+ }
+ /* Modal Error */
+ 
+ body .ui-dialog.modal.modal-error .ui-dialog-titlebar {
+     background-image: none;
+     background-color: var(--candy-red);
+ }
+ 
+ body .ui-dialog.modal.modal-error .ui-dialog-footer button {
+     background-color: var(--candy-red);
+     cursor: pointer;
+     border-radius: 0 0 12px 12px;
+ }
+ 
+ body .ui-dialog.modal.modal-error .ui-dialog-footer button:enabled:focus {
+     box-shadow: none;
+     background-color: var(--usc-cardinal);
+ }
+ /* Modal button double gris y naranja */
+ 
+ body .ui-dialog.modal-button-double-gn .ui-dialog-footer button {
+     margin: 0;
+     width: 50%;
+ }
+ 
+ body .ui-dialog.modal-button-double-gn .ui-dialog-footer button:first-child {
+     background-color: var(--manatee);
+     border-radius: 0 0 0 12px;
+     -webkit-border-radius: 0 0 0 12px;
+     -moz-border-radius: 0 0 0 12px;
+     -ms-border-radius: 0 0 0 12px;
+     -o-border-radius: 0 0 0 12px;
+ }
+ 
+ body .ui-dialog.modal-button-double-gn .ui-dialog-footer button:first-child:enabled:focus {
+     background-color: var(--roman-silver);
+     border-radius: 0 0 0 12px;
+     -webkit-border-radius: 0 0 0 12px;
+     -moz-border-radius: 0 0 0 12px;
+     -ms-border-radius: 0 0 0 12px;
+     -o-border-radius: 0 0 0 12px;
+     box-shadow: none;
+ }
+ 
+ body .ui-dialog.modal-button-double-gn .ui-dialog-footer button:last-child {
+     background-color: var(--orange);
+     border-radius: 0 0 12px 0;
+     -webkit-border-radius: 0 0 12px 0;
+     -moz-border-radius: 0 0 12px 0;
+     -ms-border-radius: 0 0 12px 0;
+     -o-border-radius: 0 0 12px 0;
+ }
+ 
+ body .ui-dialog.modal-button-double-gn .ui-dialog-footer button:last-child:enabled:focus {
+     background-color: var(--fulvous);
+     border-radius: 0 0 12px 0;
+     -webkit-border-radius: 0 0 12px 0;
+     -moz-border-radius: 0 0 12px 0;
+     -ms-border-radius: 0 0 12px 0;
+     -o-border-radius: 0 0 12px 0;
+     box-shadow: none;
+ }
+ /* Modal button double gris y azul */
+ 
+ body .ui-dialog.modal-button-double-ga .ui-dialog-footer button {
+     margin: 0;
+     width: 50%;
+ }
+ 
+ body .ui-dialog.modal-button-double-ga .ui-dialog-footer button:first-child {
+     background-color: var(--manatee);
+     border-radius: 0 0 0 12px;
+     -webkit-border-radius: 0 0 0 12px;
+     -moz-border-radius: 0 0 0 12px;
+     -ms-border-radius: 0 0 0 12px;
+     -o-border-radius: 0 0 0 12px;
+ }
+ 
+ body .ui-dialog.modal-button-double-ga .ui-dialog-footer button:first-child:enabled:focus {
+     background-color: var(--roman-silver);
+     border-radius: 0 0 0 12px;
+     -webkit-border-radius: 0 0 0 12px;
+     -moz-border-radius: 0 0 0 12px;
+     -ms-border-radius: 0 0 0 12px;
+     -o-border-radius: 0 0 0 12px;
+     box-shadow: none;
+ }
+ 
+ body .ui-dialog.modal-button-double-ga .ui-dialog-footer button:last-child {
+     background-color: var(--lapis-lazuli);
+     border-radius: 0 0 12px 0;
+     -webkit-border-radius: 0 0 12px 0;
+     -moz-border-radius: 0 0 12px 0;
+     -ms-border-radius: 0 0 12px 0;
+     -o-border-radius: 0 0 12px 0;
+ }
+ 
+ body .ui-dialog.modal-button-double-ga .ui-dialog-footer button:last-child:enabled:focus {
+     background-color: var(--daz-blue);
+     border-radius: 0 0 12px 0;
+     -webkit-border-radius: 0 0 12px 0;
+     -moz-border-radius: 0 0 12px 0;
+     -ms-border-radius: 0 0 12px 0;
+     -o-border-radius: 0 0 12px 0;
+     box-shadow: none;
+ }
+ /* Button orange */
+ 
+ body .modal.modal-orange .ui-dialog-footer {
+     background-color: var(--orange);
+     cursor: pointer;
+ }
+ 
+ body .modal.modal-orange .ui-dialog-footer button:enabled:focus {
+     box-shadow: none;
+     background-color: var(--fulvous);
+     border-radius: 0 0 12px 12px;
+ }
+ /* Button lapis-lazuli  */
+ 
+ body .modal.modal-lapis-lazuli .ui-dialog-footer {
+     background-color: var(--lapis-lazuli);
+     cursor: pointer;
+ }
+ 
+ body .modal.modal-lapis-lazuli .ui-dialog-footer button:enabled:focus {
+     box-shadow: none;
+     background-color: var(--daz-blue);
+     border-radius: 0 0 12px 12px;
+ }
+ /* Button manatee  */
+ 
+ body .modal.modal-manatee .ui-dialog-footer {
+     background-color: var(--manatee);
+     cursor: pointer;
+ }
+ 
+ body .modal.modal-manatee .ui-dialog-footer button:enabled:focus {
+     box-shadow: none;
+     background-color: var(--roman-silver);
+     border-radius: 0 0 12px 12px;
+ }
+ /*--------------------------------------------*/
+ /* SIDEBAR */
+ /*--------------------------------------------*/
+ 
+ .overlaysidebarcontainer.ui-sidebar-active {
+     border: 0;
+     left: 60px;
+     padding: 0;
+     border-radius: 0px 12px 0px 0px;
+     background-image: linear-gradient(rgba(28, 55, 117, 1), rgba(38, 94, 159, 1));
+     -webkit-box-shadow: 4px 2px 4px -1px rgba(0, 0, 0, 0.76);
+     -moz-box-shadow: 4px 2px 4px -1px rgba(0, 0, 0, 0.76);
+     box-shadow: 4px 2px 4px -1px rgba(0, 0, 0, 0.76);
+     -webkit-border-radius: 0px 12px 0px 0px;
+     -moz-border-radius: 0px 12px 0px 0px;
+     -ms-border-radius: 0px 12px 0px 0px;
+     -o-border-radius: 0px 12px 0px 0px;
+ }
+ 
+ .overlayitems {
+     max-height: 450px;
+     overflow-y: auto
+ }
+ 
+ .overlaysidebarcontainer.ui-sidebar {
+     border: 0;
+     border-radius: 0px 12px 0px 0px;
+     background-image: url('../src/assets/img/menulogo2.png'), linear-gradient(rgba(28, 55, 117, 1), rgba(38, 94, 159, 1));
+     background-repeat: no-repeat, no-repeat;
+     background-position: 80px bottom, left top;
+     background-size: contain, auto;
+     -webkit-box-shadow: 4px 2px 4px -1px rgba(0, 0, 0, 0.76);
+     -moz-box-shadow: 4px 2px 4px -1px rgba(0, 0, 0, 0.76);
+     box-shadow: 4px 2px 4px -1px rgba(0, 0, 0, 0.76);
+     -webkit-border-radius: 0px 12px 0px 0px;
+     -moz-border-radius: 0px 12px 0px 0px;
+     -ms-border-radius: 0px 12px 0px 0px;
+     -o-border-radius: 0px 12px 0px 0px;
+ }
+ 
+ .brand {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: var(--mid-blue);
+     height: 60px;
+     border-radius: 0px 12px 0px 0px;
+     -webkit-border-radius: 0px 12px 0px 0px;
+     -moz-border-radius: 0px 12px 0px 0px;
+     -ms-border-radius: 0px 12px 0px 0px;
+     -o-border-radius: 0px 12px 0px 0px;
+ }
+ 
+ .brandwrapper {
+     background-image: url('../src/assets/img/brandcharacters.png');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: contain;
+     height: 45px;
+     width: 140px;
+ }
+ 
+ .ui-widget-overlay.ui-sidebar-mask {
+     left: 60px;
+     width: calc(100vw - 60px);
+     background-color: transparent;
+ }
+ /*--------------------------------------------*/
+ /* PICKLIST */
+ /*--------------------------------------------*/
+ 
+ p-picklist {
+     width: 100%;
+ }
+ 
+ .picklist.ui-picklist.ui-picklist-responsive .ui-picklist-listwrapper {
+     width: 31.7%;
+     max-width: 370px;
+     margin: 0 auto;
+ }
+ 
+ body .picklist.ui-picklist .ui-picklist-list .ui-picklist-item .picklist-row {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+     min-height: 40px;
+ }
+ 
+ body .picklist.ui-picklist .ui-picklist-caption {
+     min-height: 40px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: var(--lapis-lazuli);
+     border-radius: 12px 0px 0 0;
+     border: 1px solid var(--lapis-lazuli);
+     color: var(--white);
+     font-family: 'Ubuntu';
+     font-weight: bold;
+     font-size: var(--text-l);
+ }
+ 
+ body .picklist.ui-picklist .ui-picklist-list {
+     font-family: 'Ubuntu';
+     font-weight: 400;
+     font-style: normal;
+     font-size: var(--text-l);
+     line-height: 22px;
+     color: var(--independence);
+     border-radius: 0 0 12px 0;
+     -webkit-border-radius: 0 0 12px 0;
+     -moz-border-radius: 0 0 12px 0;
+     -ms-border-radius: 0 0 12px 0;
+     -o-border-radius: 0 0 12px 0;
+     border: 1px solid var(--lapis-lazuli);
+     border-top: 0;
+ }
+ 
+ .picklist.ui-picklist.ui-picklist-responsive .ui-picklist-buttons button {
+     max-width: 70px;
+     max-height: 23px;
+     border-radius: 12px 0 12px 0;
+     background-color: var(--lapis-lazuli);
+     border: 1px solid var(--lapis-lazuli);
+     margin: 20px auto;
+ }
+ 
+ body .picklist.ui-picklist.ui-picklist-responsive .ui-picklist-buttons button:enabled:hover {
+     background-color: var(--daz-blue);
+     border: 1px solid var(--daz-blue);
+ }
+ 
+ body .picklist.ui-picklist.ui-picklist-responsive .ui-picklist-buttons button:enabled:focus {
+     box-shadow: none;
+     background-color: var(--yale-blue);
+     border: 1px solid var(--yale-blue);
+ }
+ 
+ body .picklist .ui-button.ui-button-icon-only .ui-button-text {
+     padding: 0;
+ }
+ 
+ .picklist .ui-button-icon-only .ui-button-icon-left {
+     font-size: 18px;
+ }
+ 
+ .picklist.ui-picklist .ui-picklist-list li.ng-star-inserted {
+     padding: 0;
+     margin: 0;
+     height: auto;
+     color: var(--independence);
+ }
+ 
+ .picklist.ui-picklist .ui-picklist-list li.ui-picklist-item.ng-star-inserted {
+     min-height: 40px;
+ }
+ 
+ body .picklist.ui-picklist .ui-picklist-list .ui-picklist-item.ui-state-highlight {
+     background-color: var(--platinum);
+     color: var(--independence);
+     outline: none;
+ }
+ 
+ body .picklist.ui-picklist .ui-picklist-list .ui-picklist-item:not(.ui-state-highlight):focus {
+     outline: none;
+ }
+ /*--------------------------------------------*/
+ /* CARDS */
+ /*--------------------------------------------*/
+ 
+ p-card {
+     width: 100%;
+ }
+ 
+ body .card.ui-card {
+     width: 100%;
+     /* height: calc(100vh - 277px); */
+     background-image: linear-gradient(rgba(38, 94, 159, 1), rgba(28, 55, 117, 1));
+     border-radius: 12px 4px 12px 4px;
+     box-shadow: 4px 4px 4px rgba(0, 0, 0, .5);
+     -webkit-border-radius: 12px 4px 12px 4px;
+     -moz-border-radius: 12px 4px 12px 4px;
+     -ms-border-radius: 12px 4px 12px 4px;
+     -o-border-radius: 12px 4px 12px 4px;
+     overflow-y: auto;
+ }
+ 
+ .card .ui-card-body {
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     padding-top: 45px;
+ }
+ 
+ .card .ui-card-title {
+     color: white;
+     font-family: Ubuntu;
+     font-weight: bold;
+     font-style: italic;
+     font-size: var(--text-xxl);
+ }
+ 
+ .card .ui-card-content {
+     flex: 1;
+ }
+ 
+ .card p-footer {
+     display: flex;
+ }
+ 
+ .card .ui-card-footer {
+     padding-bottom: 20px;
+ }
+ /*--------------------------------------------*/
+ /* TOOLTIPS*/
+ /*--------------------------------------------*/
+ 
+ .tooltip-container span {
+     width: 24px;
+     height: 24px;
+     background-color: transparent;
+     border: 0;
+     cursor: pointer;
+     z-index: 1;
+     display: flex;
+ }
+ 
+ .tooltip-container i {
+     font-size: 25px;
+     line-height: 26px;
+     width: 24px;
+     height: 24px;
+ }
+ 
+ body .tooltip.ui-tooltip .ui-tooltip-text {
+     font-family: Ubuntu;
+     font-weight: normal;
+     font-style: normal;
+     font-size: 12px;
+     line-height: 12px;
+     text-align: center;
+     border-radius: 12px 12px;
+     -webkit-border-radius: 12px 12px;
+     -moz-border-radius: 12px 12px;
+     -ms-border-radius: 12px 12px;
+     -o-border-radius: 12px 12px;
+     min-height: 30px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .tooltip.ui-tooltip.ui-tooltip-right {
+     min-width: 200px;
+     min-height: 30px;
+     margin-left: 20px;
+ }
+ 
+ .tooltip.ui-tooltip-right .ui-tooltip-arrow {
+     left: -.4em;
+     margin-top: -.70em;
+     border-width: .65em 1em .65em 0;
+ }
+ 
+ .tooltip.ui-tooltip-right .ui-tooltip-arrow {
+     left: -.4em;
+     margin-top: -.70em;
+     border-width: .65em 1em .65em 0;
+ }
+ /* Tooltip warning - orange */
+ 
+ body .tooltip-warning.tooltip.ui-tooltip.ui-tooltip-right .ui-tooltip-arrow {
+     border-right-color: var(--orange);
+ }
+ 
+ body .tooltip-warning.tooltip.ui-tooltip .ui-tooltip-text {
+     background-color: var(--orange);
+ }
+ 
+ .tooltip-warning.tooltip-container i {
+     color: var(--orange);
+ }
+ /* Tooltip Blue */
+ 
+ body .tooltip-blue.tooltip.ui-tooltip.ui-tooltip-right .ui-tooltip-arrow {
+     border-right-color: var(--lapis-lazuli);
+ }
+ 
+ body .tooltip-blue.tooltip.ui-tooltip .ui-tooltip-text {
+     background-color: var(--lapis-lazuli);
+ }
+ 
+ .tooltip-blue.tooltip-container i {
+     color: var(--lapis-lazuli);
+ }
+ /* Tooltip success - mid Blue */
+ 
+ body .tooltip-success.tooltip.ui-tooltip.ui-tooltip-right .ui-tooltip-arrow {
+     border-right-color: var(--mid-blue);
+ }
+ 
+ body .tooltip-success.tooltip.ui-tooltip .ui-tooltip-text {
+     background-color: var(--mid-blue);
+ }
+ 
+ .tooltip-success.tooltip-container i {
+     color: var(--mid-blue);
+ }
+ /* Tooltip Alert */
+ 
+ body .tooltip-alert.tooltip.ui-tooltip.ui-tooltip-right .ui-tooltip-arrow {
+     border-right-color: var(--candy-red);
+ }
+ 
+ body .tooltip-alert.tooltip.ui-tooltip .ui-tooltip-text {
+     background-color: var(--candy-red);
+ }
+ 
+ .tooltip-alert.tooltip-container i {
+     color: var(--candy-red);
+ }
+ /*--------------------------------------------*/
+ /* TABS */
+ /*--------------------------------------------*/
+ 
+ body .tabView.ui-tabview.ui-tabview-top .ui-tabview-nav li {
+     min-width: calc(100% / 5);
+     min-height: 40px;
+     margin: 0;
+     text-align: center;
+     background-color: transparent;
+     border: 1px solid var(--lapis-lazuli);
+     border-radius: 0;
+     outline: none;
+     cursor: pointer;
+ }
+ 
+ body .tabView.ui-tabview.ui-tabview-top .ui-tabview-nav li:first-child {
+     border-radius: 12px 0 0 0;
+     border-left: 1px solid var(--lapis-lazuli);
+ }
+ 
+ body .tabView.ui-tabview .ui-tabview-panels {
+     width: 100%;
+     padding: 40px 30px 30px;
+     border: 1px solid var(--lapis-lazuli);
+     border-radius: 0 2px 12px 0;
+     -webkit-border-radius: 0 2px 12px 0;
+     -moz-border-radius: 0 2px 12px 0;
+     -ms-border-radius: 0 2px 12px 0;
+     -o-border-radius: 0 2px 12px 0;
+ }
+ 
+ body .tabView.ui-tabview.ui-tabview-top .ui-tabview-nav {
+     margin: 0;
+ }
+ 
+ .tabView.ui-tabview .ui-tabview-title {
+     color: var(--lapis-lazuli);
+     font-family: Ubuntu;
+     font-weight: bold;
+     font-style: normal;
+     font-size: var(--text-l);
+     white-space: initial;
+ }
+ /* active */
+ 
+ body .tabView.ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-active {
+     background-color: var(--lapis-lazuli);
+     border: 1px solid var(--lapis-lazuli);
+ }
+ 
+ body .tabView.ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-active .ui-tabview-title {
+     color: var(--white);
+ }
+ /* Hover */
+ 
+ body .tabView.ui-tabview.ui-tabview-top .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover {
+     background-color: var(--white);
+     border: 1px solid var(--lapis-lazuli);
+ }
+ 
+ body .tabView.ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-active:hover {
+     background-color: var(--lapis-lazuli);
+     border: 1px solid var(--lapis-lazuli);
+ }
+ /* Hover and active li:first */
+ 
+ body .tabView.ui-tabview.ui-tabview-top .ui-tabview-nav li:first-child:not(.ui-state-active):not(.ui-state-disabled):hover {
+     border-left: 1px solid var(--lapis-lazuli);
+ }
+ /* Estilos overlay de la información de sesión*/
+ 
+ .useroverlay.ui-overlaypanel {
+     width: 200px;
+     margin-left: 10px;
+     margin-top: 5px;
+     background-color: transparent;
+     border: 0;
+     box-shadow: none;
+ }
+ 
+ .useroverlay.ui-overlaypanel::before {
+     border: 0;
+ }
+ 
+ .useroverlay.ui-overlaypanel::after {
+     border: 0;
+ }
+ 
+ .useroverlay.ui-overlaypanel .ui-overlaypanel-content {
+     padding: 0;
+ }
+ /*--------------------------------------------*/
+ /* TABLE */
+ /*--------------------------------------------*/
+ /* .tabla.ui-table table {
+  table-layout: initial
+} */
+ 
+ body .tabla.ui-table .ui-table-thead>tr>th,
+ body .tabla.ui-table .ui-table-tbody>tr>td {
+     min-width: 100px;
+     width: calc(85vw / 8);
+     height: 40px;
+     padding: 0;
+     text-align: center;
+     border: 0;
+     font-family: 'Ubuntu';
+     font-weight: normal;
+     font-style: normal;
+     color: var(--independence);
+ }
+ 
+ body .tabla.ui-table .ui-table-thead>tr>th {
+     background-color: var(--light-grey);
+     font-weight: bold;
+     font-size: 16px;
+ }
+ /* body .tabla.ui-table .ui-table-tbody > tr {
+  background-color: var(--white);
+} */
+ 
+ body .tabla.ui-table .ui-table-tbody>tr:nth-child(2n) {
+     background-color: var(--platinum);
+     border: 0;
+ }
+ 
+ .tabla .ui-table-scrollable-wrapper {
+     display: flex;
+     flex-direction: column;
+     flex: 1 1 0;
+     max-width: 85vw;
+     border: 1px solid var(--lapis-lazuli);
+ }
+ 
+ body .ui-table .ui-table-caption {
+     position: relative !important;
+ }
+ 
+ body .ui-paginator .ui-paginator-pages .ui-paginator-page {
+     color: #505467;
+     font-weight: bold;
+ }
+ 
+ body .tabla.ui-table .ui-table-caption {
+     width: 100%;
+     min-height: 50px;
+     background-color: var(--lapis-lazuli);
+     border: 1px solid var(--lapis-lazuli);
+     padding: 0 1em;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ body .tabla.ui-table .ui-table-caption .flex-center-between {
+     width: 100%;
+ }
+ 
+ .tabla .ui-inputgroup .ui-inputtext.input-text {
+     margin-top: 0;
+ }
+ 
+ .tabla .ui-button {
+     font-family: 'Ubuntu';
+     font-weight: bold;
+     font-style: normal;
+     font-size: 16px;
+     background-color: transparent;
+     border: 0;
+     text-transform: uppercase;
+ }
+ 
+ body .tabla .ui-button:enabled:hover {
+     background-color: transparent;
+     color: var(--white-smoke);
+     border-color: transparent;
+     outline: none;
+ }
+ 
+ body .tabla .ui-button:enabled:focus {
+     outline: none;
+     outline-offset: 0px;
+     box-shadow: none;
+ }
+ 
+ body .tabla .ui-inputtext.input-text {
+     max-width: 200px;
+ }
+ 
+ body .overlay-opciones.ui-overlaypanel {
+     min-height: 80px;
+     min-width: 195px;
+     left: inherit !important;
+     top: 35px !important;
+     right: 0;
+     margin: 0;
+     border: 2px solid var(--lapis-lazuli);
+ }
+ 
+ body .overlay-opciones.ui-overlaypanel .ui-overlaypanel-content {
+     padding: 0.7em;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: flex-start;
+     min-height: 80px;
+ }
+ 
+ body .overlay-opciones.ui-overlaypanel .ui-overlaypanel-content .button-overlay {
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     cursor: pointer;
+     color: var(--manatee);
+     font-family: 'Ubuntu';
+     font-weight: normal;
+     font-style: italic;
+ }
+ 
+ body .overlay-opciones.ui-overlaypanel .ui-overlaypanel-content .button-overlay:hover {
+     color: var(--lapis-lazuli);
+ }
+ 
+ body .overlay-opciones.ui-overlaypanel .ui-overlaypanel-content .button-overlay i {
+     padding-right: 10px;
+ }
+ 
+ body .overlay-opciones.ui-overlaypanel::after,
+ body .overlay-opciones.ui-overlaypanel::before {
+     display: none;
+ }
+ 
+ .tabla.ui-table p-paginator {
+     background-color: transparent;
+     border: 0;
+     min-height: 80px;
+     display: flex;
+     width: 100%;
+     flex-direction: row;
+     align-items: flex-end;
+ }
+ 
+ .tabla.ui-table .ui-paginator-bottom {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     background-color: transparent;
+     border: 0
+ }
+ 
+ body .tabla .ui-paginator .ui-paginator-pages .ui-paginator-page.ui-state-active {
+     background-color: transparent;
+     color: var(--lapis-lazuli);
+ }
+ 
+ body .tabla .ui-paginator .ui-paginator-pages .ui-paginator-page:not(.ui-state-active):hover {
+     background-color: transparent;
+     color: var(--independence);
+     outline: none;
+ }
+ 
+ body p-paginator .ui-paginator .ui-paginator-next:not(.ui-state-disabled):not(.ui-state-active):hover,
+ body p-paginator .ui-paginator .ui-paginator-prev:not(.ui-state-disabled):not(.ui-state-active):hover,
+ body p-paginator .ui-paginator .ui-paginator-first:not(.ui-state-disabled):not(.ui-state-active):hover,
+ body p-paginator .ui-paginator .ui-paginator-last:not(.ui-state-disabled):not(.ui-state-active):hover {
+     background-color: transparent;
+ }
+ 
+ body .tabla .ui-paginator .ui-paginator-pages .ui-paginator-page {
+     outline: none;
+ }
+ 
+ body .ui-treetable .ui-treetable-tbody>tr>td .ui-treetable-toggler {
+     color: #848484;
+     vertical-align: middle;
+ }
+ /*-----------TreeTable------------------------*/
+ 
+ body .tabla.ui-treetable .ui-treetable-thead>tr>th,
+ body .tabla.ui-treetable .ui-treetable-tbody>tr>td {
+     min-width: 100px;
+     width: calc(85vw / 7);
+     height: 40px;
+     padding: 0 0 0 10;
+     text-align: left;
+     border: 0;
+     font-family: 'Ubuntu';
+     font-weight: normal;
+     font-style: normal;
+     color: var(--independence);
+ }
+ 
+ body .tabla.ui-treetable .ui-treetable-thead>tr>th {
+     background-color: var(--light-grey);
+     font-weight: bold;
+     font-size: 16px;
+ }
+ 
+ body .tabla.ui-treetable .ui-treetable-tbody>tr:nth-child(2n) {
+     background-color: var(--platinum);
+     border: 0;
+ }
+ 
+ #text {
+     column-span: all!important;
+     column-count: 6!important;
+ }
+ /*
+            .ui-treetable-tbody>tr:nth-child(2n),
+            td {
+                column-span: none;
+            }
+            .ui-treetable-tbody>tr>td,
+            #text {
+                column-span: all!important;
+                column-count: 1!important;
+                width: calc(85vw / 1)!important;
+            }*/
+ 
+ .tabla .ui-treetable-scrollable-wrapper {
+     display: flex;
+     flex-direction: column;
+     flex: 1 1 0;
+     max-width: 85vw;
+     border: 1px solid var(--lapis-lazuli);
+ }
+ 
+ body .ui-treetable .ui-treetable-caption {
+     position: relative !important;
+ }
+ 
+ body .ui-paginator .ui-paginator-pages .ui-paginator-page {
+     color: #505467;
+     font-weight: bold;
+ }
+ 
+ body .tabla.ui-treetable .ui-treetable-caption {
+     width: 100%;
+     min-height: 50px;
+     background-color: var(--lapis-lazuli);
+     border: 1px solid var(--lapis-lazuli);
+     padding: 0 1em;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ body .tabla.ui-treetable .ui-treetable-caption .flex-center-between {
+     width: 100%;
+ }
+ 
+ .tabla .ui-inputgroup .ui-inputtext.input-text {
+     margin-top: 0;
+ }
+ 
+ .tabla .ui-button {
+     font-family: 'Ubuntu';
+     font-weight: bold;
+     font-style: normal;
+     font-size: 16px;
+     background-color: transparent;
+     border: 0;
+     text-transform: uppercase;
+ }
+ 
+ body .tabla .ui-button:enabled:hover {
+     background-color: transparent;
+     color: var(--white-smoke);
+     border-color: transparent;
+     outline: none;
+ }
+ 
+ body .tabla .ui-button:enabled:focus {
+     outline: none;
+     outline-offset: 0px;
+     box-shadow: none;
+ }
+ 
+ body .tabla .ui-inputtext.input-text {
+     max-width: 200px;
+ }
+ 
+ body .overlay-opciones.ui-overlaypanel {
+     min-height: 80px;
+     min-width: 195px;
+     left: inherit !important;
+     top: 35px !important;
+     right: 0;
+     margin: 0;
+     border: 2px solid var(--lapis-lazuli);
+ }
+ 
+ body .overlay-opciones.ui-overlaypanel .ui-overlaypanel-content {
+     padding: 0.7em;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: flex-start;
+     min-height: 80px;
+ }
+ 
+ body .overlay-opciones.ui-overlaypanel .ui-overlaypanel-content .button-overlay {
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     cursor: pointer;
+     color: var(--manatee);
+     font-family: 'Ubuntu';
+     font-weight: normal;
+     font-style: italic;
+ }
+ 
+ body .overlay-opciones.ui-overlaypanel .ui-overlaypanel-content .button-overlay:hover {
+     color: var(--lapis-lazuli);
+ }
+ 
+ body .overlay-opciones.ui-overlaypanel .ui-overlaypanel-content .button-overlay i {
+     padding-right: 10px;
+ }
+ 
+ body .overlay-opciones.ui-overlaypanel::after,
+ body .overlay-opciones.ui-overlaypanel::before {
+     display: none;
+ }
+ 
+ .tabla.ui-treetable p-paginator {
+     background-color: transparent;
+     border: 0;
+     min-height: 80px;
+     display: flex;
+     width: 100%;
+     flex-direction: row;
+     align-items: flex-end;
+ }
+ 
+ .tabla.ui-treetable .ui-paginator-bottom {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     background-color: transparent;
+     border: 0
+ }
+ 
+ body .tabla .ui-paginator .ui-paginator-pages .ui-paginator-page.ui-state-active {
+     background-color: transparent;
+     color: var(--lapis-lazuli);
+ }
+ 
+ body .tabla .ui-paginator .ui-paginator-pages .ui-paginator-page:not(.ui-state-active):hover {
+     background-color: transparent;
+     color: var(--independence);
+     outline: none;
+ }
+ 
+ body p-paginator .ui-paginator .ui-paginator-next:not(.ui-state-disabled):not(.ui-state-active):hover,
+ body p-paginator .ui-paginator .ui-paginator-prev:not(.ui-state-disabled):not(.ui-state-active):hover,
+ body p-paginator .ui-paginator .ui-paginator-first:not(.ui-state-disabled):not(.ui-state-active):hover,
+ body p-paginator .ui-paginator .ui-paginator-last:not(.ui-state-disabled):not(.ui-state-active):hover {
+     background-color: transparent;
+ }
+ 
+ body .tabla .ui-paginator .ui-paginator-pages .ui-paginator-page {
+     outline: none;
+ }
+ 
+ .ui-treetable .ui-treetable-toggler {
+     display: inline-block!important;
+     position: inherit!important;
+ }
+ /*--------------------------------------------*/
+ /* Table CRUD */
+ /*--------------------------------------------*/
+ 
+ body .tabla.tabla-crud.ui-table .ui-table-thead>tr>th:nth-child(1) {
+     min-width: 60px;
+     width: 60px;
+ }
+ 
+ body .tabla.tabla-crud.ui-table .ui-table-tbody>tr>td:nth-child(1) {
+     min-width: 60px;
+     width: 60px;
+ }
+ /* hover */
+ 
+ body .tabla.tabla-crud.tabla.ui-table .ui-table-tbody>tr:hover {
+     cursor: pointer;
+     background-color: var(--mid-blue);
+     color: var(--white);
+ }
+ 
+ body .tabla.ui-table .ui-table-tbody>tr:hover>td {
+     cursor: pointer;
+     background-color: var(--mid-blue);
+     color: var(--white);
+ }
+ 
+ body .tabla.tabla-crud.tabla.ui-table .ui-table-tbody>tr:nth-child(2n):hover {
+     background-color: var(--mid-blue);
+ }
+ /* active */
+ 
+ body .tabla.tabla-crud.ui-table .ui-table-tbody>tr.ui-state-highlight,
+ body .tabla.tabla-crud.ui-table .ui-table-tbody>tr:nth-child(2n).ui-state-highlight {
+     background-color: var(--ncs-blue);
+ }
+ 
+ body .tabla.tabla-crud.ui-table .ui-table-tbody>tr.ui-state-highlight td,
+ body .tabla.tabla-crud.ui-table .ui-table-tbody>tr:nth-child(2n).ui-state-highlight td {
+     color: var(--white);
+ }
+ /* Checkbox active success */
+ 
+ body .tabla.tabla-crud .ui-chkbox .ui-chkbox-box.ui-state-active:not(.ui-state-disabled):hover {
+     border-color: var(--patrick-blue);
+     background-color: var(--patrick-blue);
+ }
+ 
+ body .tabla.tabla-crud .ui-chkbox .ui-chkbox-box.ui-state-active {
+     border-color: var(--midnight-blue);
+     background-color: var(--midnight-blue);
+ }
+ /* Checkbox active alert - add class */
+ 
+ body .tabla.tabla-crud .table-checkbox .ui-chkbox .ui-chkbox-box {
+     border-color: rgba(163, 0, 0, 0.3);
+     background-color: rgba(163, 0, 0, 0.3);
+ }
+ 
+ body .tabla.tabla-crud .table-checkbox .ui-chkbox .ui-chkbox-box:not(.ui-state-disabled):hover {
+     border-color: var(--usc-cardinal);
+     background-color: var(--usc-cardinal);
+ }
+ 
+ body .tabla.tabla-crud .ui-state-highlight .table-checkbox .ui-chkbox .ui-chkbox-box {
+     border-color: var(--candy-red);
+     background-color: var(--candy-red);
+ }
+ /* Context menu */
+ 
+ body .table-content-menu.ui-contextmenu {
+     border: 2px solid var(--lapis-lazuli);
+ }
+ 
+ body .table-content-menu.ui-contextmenu .ui-menuitem-active>.ui-submenu>.ui-submenu-list {
+     border: 2px solid var(--lapis-lazuli);
+ }
+ 
+ body .table-content-menu .ui-menuitem-link.ui-corner-all.ng-star-inserted {
+     cursor: pointer;
+     color: var(--manatee);
+     font-family: 'Ubuntu';
+     font-weight: normal;
+     font-style: italic;
+ }
+ 
+ body .table-content-menu.ui-contextmenu .ui-menuitem-link .ui-menuitem-text,
+ body .table-content-menu.ui-contextmenu .ui-menuitem-link .ui-menuitem-icon {
+     color: var(--manatee);
+ }
+ /* Context menu - hover */
+ 
+ body .table-content-menu.ui-contextmenu .ui-menuitem-link:hover,
+ body .table-content-menu.ui-contextmenu .ui-menuitem-active a,
+ body .table-content-menu.ui-contextmenu .ui-menuitem-active a:hover {
+     background-color: transparent;
+     color: var(--lapis-lazuli);
+ }
+ 
+ body .table-content-menu.ui-contextmenu .ui-menuitem.ui-menuitem-active>.ui-menuitem-link .ui-menuitem-text,
+ body .table-content-menu.ui-contextmenu .ui-menuitem.ui-menuitem-active>.ui-menuitem-link .ui-menuitem-icon,
+ body .table-content-menu.ui-contextmenu .ui-menuitem.ui-menuitem-active>.ui-menuitem-link .ui-submenu-icon {
+     color: var(--lapis-lazuli);
+ }
+ /*--------------------------------------------*/
+ /* Acordion */
+ /*--------------------------------------------*/
+ 
+ p-accordion {
+     width: 100%;
+ }
+ /* Accordion header */
+ 
+ body .accordion.ui-accordion .ui-accordion-header a {
+     background-color: transparent;
+     border: 0;
+     border-bottom: 2px solid var(--independence);
+     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, .16);
+     padding: 0.371em 1em 0.371em 0;
+ }
+ /* Accordion header icon */
+ 
+ body .accordion.ui-accordion .ui-accordion-header:not(.ui-state-disabled).ui-state-active a .ui-accordion-toggle-icon {
+     color: var(--independence);
+ }
+ /* Accordion header */
+ 
+ body .accordion.accordion-reverse.ui-accordion .ui-accordion-header a .ui-accordion-toggle-icon {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ /* Accordion header hover */
+ 
+ body .accordion.ui-accordion .ui-accordion-header:not(.ui-state-disabled).ui-state-active:hover a .ui-accordion-toggle-icon {
+     color: var(--independence);
+ }
+ 
+ body .accordion.ui-accordion .ui-accordion-header:not(.ui-state-disabled).ui-state-active:hover a {
+     color: var(--independence);
+     border: 0;
+     border-bottom: 2px solid var(--independence);
+     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, .16);
+ }
+ /* Accordion header */
+ 
+ body .accordion.ui-accordion .ui-accordion-header-text {
+     font-family: 'Ubuntu';
+     font-weight: bold;
+     font-style: italic;
+     font-size: var(--text-xl);
+     line-height: 25px;
+ }
+ /* Accordion header hover */
+ 
+ body .accordion.ui-accordion .ui-accordion-header:not(.ui-state-disabled).ui-state-active:hover a {
+     background-color: transparent;
+     border: 0;
+     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, .16);
+     border-bottom: 2px solid var(--independence);
+ }
+ 
+ body .accordion.ui-accordion .ui-accordion-header:not(.ui-state-active):not(.ui-state-disabled):hover a {
+     background-color: transparent;
+     border: 0;
+     border-bottom: 2px solid var(--independence);
+     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, .16);
+     color: var(--independence);
+ }
+ /* Accordion header active */
+ 
+ body .accordion.ui-accordion .ui-accordion-header:not(.ui-state-disabled).ui-state-active a {
+     background-color: transparent;
+     border: 0;
+     border-bottom: 2px solid var(--independence);
+     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, .16);
+     color: var(--independence);
+ }
+ /* Accordion text content */
+ 
+ body .accordion.ui-accordion .ui-accordion-content {
+     padding: 1.8em 0;
+     background-color: transparent;
+     border: 0;
+ }
+ /* Accordion header reverse */
+ 
+ body .accordion.accordion-reverse.ui-accordion .ui-accordion-header a {
+     display: flex;
+     flex-direction: row-reverse;
+     justify-content: space-between;
+ }
+ /* Accordion header blue */
+ 
+ body .accordion.accordion-blue.ui-accordion .ui-accordion-header a {
+     color: var(--lapis-lazuli);
+     border-bottom: 2px solid var(--lapis-lazuli);
+ }
+ 
+ body .accordion.accordion-blue.ui-accordion .ui-accordion-header a .ui-accordion-toggle-icon {
+     color: var(--lapis-lazuli);
+ }
+ 
+ body .accordion.accordion-blue.ui-accordion .ui-accordion-header:not(.ui-state-active):not(.ui-state-disabled):hover a {
+     color: var(--daz-blue);
+     border-bottom: 2px solid var(--daz-blue);
+ }
+ 
+ body .accordion.accordion-blue.ui-accordion .ui-accordion-header:not(.ui-state-active):not(.ui-state-disabled):hover a .ui-accordion-toggle-icon {
+     color: var(--daz-blue);
+ }
+ 
+ body .accordion.accordion-blue.ui-accordion .ui-accordion-header:not(.ui-state-disabled).ui-state-active a {
+     color: var(--yale-blue);
+     border-bottom: 2px solid var(--yale-blue);
+ }
+ 
+ body .accordion.accordion-blue.ui-accordion .ui-accordion-header:not(.ui-state-disabled).ui-state-active a .ui-accordion-toggle-icon {
+     color: var(--yale-blue);
+ }
+ 
+ body .accordion.accordion-blue.ui-accordion .ui-accordion-header:not(.ui-state-disabled).ui-state-active:hover a {
+     color: var(--yale-blue);
+     border-bottom: 2px solid var(--yale-blue);
+ }
+ /* Accordion header white */
+ 
+ body .accordion.accordion-white.ui-accordion .ui-accordion-header a {
+     color: var(--white);
+     border-bottom: 2px solid var(--white);
+ }
+ 
+ body .accordion.accordion-white.ui-accordion .ui-accordion-header a .ui-accordion-toggle-icon {
+     color: var(--white);
+ }
+ 
+ body .accordion.accordion-white.ui-accordion .ui-accordion-header:not(.ui-state-active):not(.ui-state-disabled):hover a {
+     color: var(--white-smoke);
+     border-bottom: 2px solid var(--white-smoke);
+ }
+ 
+ body .accordion.accordion-white.ui-accordion .ui-accordion-header:not(.ui-state-active):not(.ui-state-disabled):hover a .ui-accordion-toggle-icon {
+     color: var(--white-smoke);
+ }
+ 
+ body .accordion.accordion-white.ui-accordion .ui-accordion-header:not(.ui-state-disabled).ui-state-active a {
+     color: var(--gainsboro);
+     border-bottom: 2px solid var(--gainsboro);
+ }
+ 
+ body .accordion.accordion-white.ui-accordion .ui-accordion-header:not(.ui-state-disabled).ui-state-active a .ui-accordion-toggle-icon {
+     color: var(--gainsboro);
+ }
+ 
+ body .accordion.accordion-white.ui-accordion .ui-accordion-header:not(.ui-state-disabled).ui-state-active:hover a {
+     color: var(--gainsboro);
+     border-bottom: 2px solid var(--gainsboro);
+ }
+ 
+ .ui-panelmenu .ui-panelmenu-header>a .ui-panelmenu-icon,
+ .ui-panelmenu .ui-panelmenu-header>a {
+     color: #ffffff!important;
+ }
+ 
+ .ui-panelmenu .ui-panelmenu-header>a {
+     background-color: none!important;
+ }
+ 
+ .ui-panelmenu .ui-panelmenu-header.ui-state-active>a {
+     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(28, 55, 117, 1)), to(rgba(38, 94, 159, 1))) !important;
+     background-image: linear-gradient(rgba(28, 55, 117, 1), rgba(38, 94, 159, 1)) !important;
+     border-left: 2px solid #02B0EF !important;
+     color: #ffffff!important;
+ }
+ 
+ .ui-panelmenu .ui-panelmenu-content .ui-menuitem .ui-menuitem-link {
+     color: #ffffff!important;
+ }
+ 
+ .ui-panelmenu .ui-submenu-list {
+     background-color: transparent!important;
+ }
+ 
+ .ui-panelmenu .ui-panelmenu-header>a {
+     border: 0px solid transparent!important;
+     background-color: transparent!important;
+     color: #ffffff!important;
+     padding: 0.714em 0.857em;
+     font-weight: 500!important;
+     font-family: 'Ubuntu';
+     font-style: italic;
+     position: static;
+     font-size: 14px;
+     transition: background-color 0.2s;
+ }
+ 
+ .ui-panelmenu .ui-panelmenu-header-link {
+     background-color: transparent!important;
+     color: #ffffff!important;
+ }
+ 
+ .ui-menuitem-link:hover {
+     background-color: transparent;
+ }
+ 
+ .ui-panelmenu .ui-panelmenu-content {
+     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(28, 55, 117, 1)), to(rgba(38, 94, 159, 1))) !important;
+     background-image: linear-gradient(rgba(28, 55, 117, 1), rgba(38, 94, 159, 1)) !important;
+     background-color: none!important;
+ }
+ 
+ .ui-panelmenu .ui-panelmenu-content .ui-menuitem .ui-menuitem-link:hover {
+     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(28, 55, 117, 1)), to(rgba(38, 94, 159, 1))) !important;
+     background-image: linear-gradient(rgba(28, 55, 117, 1), rgba(38, 94, 159, 1)) !important;
+     background-color: none!important;
+ }
+ 
+ .ui-menuitem-text {
+     color: #ffffff!important;
+     font-weight: 400!important;
+     font-family: 'Ubuntu'!important;
+     font-style: italic!important;
+ }
+ 
+ .ui-panelmenu .ui-panelmenu-content .ui-menuitem .ui-menuitem-link:hover .ui-menuitem-text {
+     color: #ffffff!important;
+ }
+ 
+ .ui-panelmenu .ui-panelmenu-header-link:hover {
+     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(28, 55, 117, 1)), to(rgba(38, 94, 159, 1))) !important;
+     background-image: linear-gradient(rgba(28, 55, 117, 1), rgba(38, 94, 159, 1)) !important;
+ }
+ 
+ :focus {
+     outline: -webkit-focus-ring-color auto 0px !important;
+     outline-color: none !important;
+     outline-style: auto !important;
+     outline-width: 0px !important;
+ }
+ 
+ .button-cancel {
+     background-color: var(--deep-red)!important;
+ }
+ 
+ .button-cancel:hover {
+     background-color: var(--candy-red)!important;
+ }
+ /* .ui-button-icon-only {
+                display: none!important;
+            }*/
+ 
+ .ui-button-info {
+     display: block;
+ }
+ 
+ body .tabla.ui-treetable .ui-treetable-tbody>tr>td>#text {
+     width: 100%!important;
+ }
+ /*.visibility-lg {
+                column-span: all!important;
+                column-count: 1!important;
+            }
+            
+            .ui-treetable-data #text {
+                column-span: all!important;
+                column-count: 1!important;
+            }*/
+ 
+ body .ui-tree {
+     width: 51em!important;
+     border: 1px solid #1c3775!important;
+     color: #265e9f!important;
+ }
